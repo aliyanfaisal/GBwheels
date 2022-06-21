@@ -4,18 +4,15 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-<p>loem as as  asida as asals
-</p>
+    <div className="app">
+<h1>Welcome to  GBwheels</h1>
 
-      <div>
-
-<h1>hello there this is gbwheels</h1>
+<button>Learn More</button>
         
       </div>
 
       
-    </div>
+    
     
   );
 }
