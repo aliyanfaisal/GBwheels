@@ -1,0 +1,6 @@
+.app{
+    background-image: url(../../img/hero-bg.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
