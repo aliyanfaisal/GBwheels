@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index';
 import App from './components/App';
 import Nav from './components/Nav';
+import Service from './components/assets/First';
 // import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,9 +12,7 @@ root.render(
     
     <Nav/>
     <App />
-{/* <h2>Hello  this is the demo for gbwheels</h2> */}
-
-
+    <Service/>
 
 
   </React.StrictMode>
