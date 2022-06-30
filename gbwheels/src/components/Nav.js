@@ -8,6 +8,7 @@ function  Nav() {
           <li><a href='#'>Home</a></li>
           <li><a href='#'>About</a></li>
           <li><a href='#'>Blog</a></li>
+          <li><a href='#service'>Service</a></li>
           </ul></nav>     
 </div>
      
