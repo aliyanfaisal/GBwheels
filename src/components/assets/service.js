@@ -11,7 +11,7 @@ return(
     <div className='inner'>
 
 <div > <h2> Cars Inspection</h2>
-<hr/><img src="" alt=""/>
+{/* <hr/><img src={require('./img/')} alt="" width={'100px'} /> */}
 <br/>
 
 <p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn <br/> asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>

@@ -11,7 +11,7 @@ box-sizing: border-box;}
 
 .menu ul{
 display: grid;
-justify-content: center;
+justify-content: right;
 /* align-items: center; */
 grid-template-columns: 90px 90px 90px  90px 90px;
 /* text-align: center; */
@@ -27,7 +27,7 @@ grid-template-columns: 90px 90px 90px  90px 90px;
 .menu ul li a{
 font-size: 1.5em;
 color: white;
-font-family:  Times, serif;
+font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* list-style-type: none; */
     text-decoration: none;
 }
