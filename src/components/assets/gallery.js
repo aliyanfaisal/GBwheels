@@ -1,12 +1,12 @@
 
-// import  img from './img';
 
 function Collage() {
 
 
 return(
 <div>
-    {/* <img src={require('./img/')} alt="" width={'100px'} /> */}
+<img src='../img/ijlal.jpg' alt='' className="img1"/>
+
     <h2>Learn more</h2>
 
 

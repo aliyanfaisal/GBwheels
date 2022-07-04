@@ -11,7 +11,10 @@ return(
     <div className='inner'>
 
 <div > <h2> Cars Inspection</h2>
-{/* <hr/><img src={require('./img/')} alt="" width={'100px'} /> */}
+
+
+<img src='../img/nissan.jpg' alt=''  className="img1" />
+
 <br/>
 
 <p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn <br/> asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
@@ -19,15 +22,16 @@ return(
 </div>
 <div>
     <h2> Cars Validation</h2>
-    <hr/>
-<img src="" alt=""/>
+
+<img src="../img/whitecar.jpg" alt="" className="img1"/>
     <br/>
 <p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn<br/>  asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
 
 </div>
 <div><h2> Cars mechanism</h2>
-<hr/>
-<img src="" alt=""/>
+
+<img src="../img/dash.jpg" alt="" className="img1"/>
+
 <br/>
 <p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn<br/>  asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
 </div>
