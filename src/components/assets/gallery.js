@@ -34,7 +34,7 @@ return(
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=First slide&bg=373940"
+      src="../img/nissan.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
@@ -45,7 +45,7 @@ return(
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Second slide&bg=282c34"
+      src="../img/whitecar.jpg"
       alt="Second slide"
     />
 
@@ -57,7 +57,7 @@ return(
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src="holder.js/800x400?text=Third slide&bg=20232a"
+      src="../img/nissan.jpg"
       alt="Third slide"
     />
 
