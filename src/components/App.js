@@ -4,9 +4,12 @@ import Nav from '../components/Nav'
 import Collage from '../components/assets/gallery';
 import  Service from './assets/service';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 import { Helmet } from 'react-helmet';
-
-
+// import { Bounce } from 'react-animated-css';
 
 function App() {
  
@@ -21,10 +24,9 @@ function App() {
             <Nav/>
     <div className="app">
 <h1>Welcome to  GBwheels</h1>
-
 <button id='mainb'>Learn More</button>
-        
-      </div>
+
+        </div>
       
     <Service/>
     <Collage/>

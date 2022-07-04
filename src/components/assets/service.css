@@ -24,16 +24,17 @@ padding: 40px 30px ;
 color: brown;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 text-align: center;
+font-size: 1.8em;
 
     
 }
 
 #service .inner p{
 
-color: rgb(37, 12, 87);
+color: rgb(0, 0, 0);
 font-family:'Times New Roman', Times, serif ;
 text-align: center;
-     /* align-items: center; */
+     font-size: 1.2em;
  font-weight: 800;   
 }
 
