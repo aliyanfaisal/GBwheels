@@ -1,6 +1,7 @@
 import './service.css';
 import  './service';
 import '../assets/service';
+import React from 'react';
 
 function Service() {
 return(
