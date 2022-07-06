@@ -3,11 +3,16 @@ import React from "react";
 import   "./Nav.css"
 // import logo from '../img/logo.svg'
 import "react-bootstrap"
+// import { Container, Row } from "react-bootstrap";
+// import { Container } from "react-bootstrap";
+// import {Row} from 'react-bootstrap';
+// import {Col} from 'react-bootstrap';
+
 function  Nav() {
     return(
+
 <div className="menu"> 
 {/* <img src="../img/logo.svg" alt="" width={'20px'} ./> */}
-
 <nav>
     
      <ul>
@@ -18,7 +23,8 @@ function  Nav() {
           </ul>
           </nav>     
 </div>
-     
+        
+
     )
 
 

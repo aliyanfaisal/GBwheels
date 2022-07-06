@@ -2,14 +2,18 @@ import './service.css';
 import  './service';
 import '../assets/service';
 import 'react-bootstrap';
-// import {Row} from 'react-bootstrap';
-// import {Col} from 'react-bootstrap';
-// import {Container} from 'react-bootstrap';
+import {Row} from 'react-bootstrap';
+import {Col} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import React from 'react';
 
 function Service() {
 return(
-    <div className='container-fluid'>
+
+    <Container fluid>
+  <Row>
+    <Col>
+
 <div  id='service'>
 <h1>services</h1>
 
@@ -51,15 +55,12 @@ return(
 
 </div>
 
-</div>
+
     
     
-//     <Container>
-//   <Row>
-//     <Col>
-//     </Col>
-//   </Row>
-// </Container>
+     </Col>
+   </Row>
+ </Container>
 
 )
 

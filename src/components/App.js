@@ -17,6 +17,7 @@ function App() {
  
   return (
 
+  
     <div id='home'>
    <Helmet>
                 <meta charSet="utf-8" />
@@ -36,7 +37,7 @@ function App() {
     
     <Footer/>
     </div>
-    
+      
  
 );
 }

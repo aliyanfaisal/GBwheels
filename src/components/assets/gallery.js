@@ -11,7 +11,7 @@ function Collage() {
 
 
 return(
-<Container >
+<Container fluid>
   <Row>
     <Col>
     
