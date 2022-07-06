@@ -3,11 +3,19 @@ import './gallery.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 import { Form } from "react-bootstrap";
+import { Row } from "react-bootstrap";
+import {Container} from "react-bootstrap"
+import { Col } from "react-bootstrap";
 import { Button } from "react-bootstrap";
 function Collage() {
 
 
 return(
+<Container >
+  <Row>
+    <Col>
+    
+    
 <div id="gallery">
 
 <Form id="form">
@@ -73,6 +81,10 @@ return(
   </Carousel.Item>
 </Carousel>
 </div>
+    </Col>
+  </Row>
+</Container>
+
 
 )
 

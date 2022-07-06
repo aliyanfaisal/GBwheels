@@ -6,15 +6,17 @@ import  Service from './assets/service';
 import React from 'react';
 import Footer from './assets/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Container} from 'react-bootstrap';
 
-
-
+// import { Row } from 'react-bootstrap';
+// import { Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
 // import { Bounce } from 'react-animated-css';
 
 function App() {
  
   return (
+
     <div id='home'>
    <Helmet>
                 <meta charSet="utf-8" />
@@ -35,7 +37,8 @@ function App() {
     <Footer/>
     </div>
     
-  );
+ 
+);
 }
 
 export default App;
