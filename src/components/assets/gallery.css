@@ -1,0 +1,22 @@
+/* STYLING FOR FORM */
+
+#form{
+
+    padding: 40px 90px;
+
+background-color: rgb(176, 163, 146);
+}
+#form h1{
+    text-align: center;
+}
+
+
+/* STYLING FOR CAROUSEL */
+.carousel{padding-top: 20px ;}
+.carousel .caro img{
+width: 400px;
+height: 400px;
+background-size: cover;
+background-position: center;
+
+}

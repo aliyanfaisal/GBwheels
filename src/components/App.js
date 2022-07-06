@@ -4,6 +4,7 @@ import Nav from '../components/Nav'
 import Collage from '../components/assets/gallery';
 import  Service from './assets/service';
 import React from 'react';
+import Footer from './assets/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -14,7 +15,7 @@ import { Helmet } from 'react-helmet';
 function App() {
  
   return (
-    <div>
+    <div id='home'>
    <Helmet>
                 <meta charSet="utf-8" />
                 <title>GBwheels</title>
@@ -30,9 +31,8 @@ function App() {
       
     <Service/>
     <Collage/>
-
-
-      
+    
+    <Footer/>
     </div>
     
   );

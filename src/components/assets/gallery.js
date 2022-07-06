@@ -1,4 +1,5 @@
 import React from "react";
+import './gallery.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from "react-bootstrap";
 import { Form } from "react-bootstrap";
@@ -7,9 +8,10 @@ function Collage() {
 
 
 return(
-<div>
+<div id="gallery">
 
-<Form>
+<Form id="form">
+  <h1>Contact-us</h1>
   <Form.Group className="mb-3" controlId="formBasicEmail">
     <Form.Label>Email address</Form.Label>
     <Form.Control type="email" placeholder="Enter email" />
@@ -30,19 +32,22 @@ return(
   </Button>
 </Form>
 
-<Carousel>
-  <Carousel.Item>
+
+{/* carousel starts from here */}
+
+<Carousel className="carousel">
+  <Carousel.Item className="caro">
     <img
       className="d-block w-100"
       src="../img/nissan.jpg"
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
+      <h3>Nissan</h3>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className="caro">
     <img
       className="d-block w-100"
       src="../img/whitecar.jpg"
@@ -50,19 +55,19 @@ return(
     />
 
     <Carousel.Caption>
-      <h3>Second slide label</h3>
+      <h3>Ferrari</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </Carousel.Caption>
   </Carousel.Item>
-  <Carousel.Item>
+  <Carousel.Item className="caro">
     <img
       className="d-block w-100"
-      src="../img/nissan.jpg"
+      src="../img/dash.jpg"
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Third slide label</h3>
+      <h3>Porsche</h3>
       <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
     </Carousel.Caption>
   </Carousel.Item>

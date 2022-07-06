@@ -1,11 +1,12 @@
 import './service.css';
 import  './service';
 import '../assets/service';
+import 'react-bootstrap';
 import React from 'react';
 
 function Service() {
 return(
-
+<div className='container-fluid'>
 <div  id='service'>
 <h1>services</h1>
 
@@ -38,11 +39,16 @@ return(
 </div>
 
 
-</div>
+
+
 
 </div>
 
 
+
+</div>
+
+</div>
 )
 
 
