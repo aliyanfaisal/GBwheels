@@ -1,10 +1,13 @@
 import React from "react";
+import { Col, Container, Row } from "react-bootstrap";
 import './footer.css'
 
 function Footer() {
     
 return(
-
+<Container fluid>
+<Row>
+<Col>
 <div className='footer'>
 <div className="innerdiv">
     
@@ -27,6 +30,11 @@ return(
 
 
 </div>
+</Col>
+
+</Row>
+
+</Container>
 
 
 

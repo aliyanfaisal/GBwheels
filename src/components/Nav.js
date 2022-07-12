@@ -12,7 +12,6 @@ function  Nav() {
     return(
 
 <div className="menu"> 
-{/* <img src="../img/logo.svg" alt="" width={'20px'} ./> */}
 <nav>
     
      <ul>
@@ -21,8 +20,8 @@ function  Nav() {
           <li><a href='#gallery'>Blog</a></li>
           <li><a href='#service'>Service</a></li>
           </ul>
-          </nav>     
-</div>
+          </nav> 
+          </div>
         
 
     )
