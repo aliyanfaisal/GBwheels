@@ -13,6 +13,7 @@ import Form from './assets/form';
 // import { Row } from 'react-bootstrap';
 // import { Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
+// import React from "react";
 // import { Bounce } from 'react-animated-css';
 
 function App() {
