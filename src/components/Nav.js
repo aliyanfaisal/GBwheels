@@ -17,8 +17,11 @@ function  Nav() {
      <ul>
           <li><a href='#home'>Home</a></li>
           <li><a href='#form'>About</a></li>
-          <li><a href='#gallery'>Blog</a></li>
+          <li><a href='#gallery'>Gallery</a></li>
           <li><a href='#service'>Service</a></li>
+
+
+          
           </ul>
           </nav> 
           </div>

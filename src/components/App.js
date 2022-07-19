@@ -8,6 +8,7 @@ import React from 'react';
 import Footer from './assets/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from './assets/form';
+import Filter from './assets/Data';
 // import { Container} from 'react-bootstrap';
 
 // import { Row } from 'react-bootstrap';
@@ -35,7 +36,7 @@ function App() {
 <button id='mainb'>Learn More</button>
 
         </div>
-      
+<Filter/>      
     <Service/>
     <Collage/>
     <Form/>
