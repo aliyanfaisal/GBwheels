@@ -1,6 +1,12 @@
 
 .footer{
-background-color:azure ;
+    /* background-color:azure ; */
+    background-image: url(../img/overlay-bg.jpg);
+
+background-position: center;
+width:100%
+;
+background-size: cover;
 padding: 10px 13px;
 }
 .footer .innerdiv{

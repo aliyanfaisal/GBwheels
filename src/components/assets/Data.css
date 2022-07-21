@@ -1,0 +1,47 @@
+#mainfilter{
+
+
+    border: 2px solid #e3e3e3;
+    
+
+}
+
+.filter{
+display: grid;
+text-align: center;
+
+    background: rgb(239, 237, 237);
+/* align-items: center; */
+grid-template-columns:  25% 25% 25% 25%;
+padding: 15px 20px;
+}
+
+.filter div span{
+    font-weight: 400;
+    color: rgb(105, 105, 105);
+    font-size: 1em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.filter div select{
+    padding: 8px 20px;
+    /* border-radius: 5px; */
+    font-size: 1em;
+        width: 50%;
+
+}
+
+
+.filter div select:hover{
+    padding: 4px 22px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(89, 89, 89);
+    font-size: 1.2em;
+
+}
+.filter div select option{
+
+    color: black;
+    font-size: 1.2em;
+
+}
