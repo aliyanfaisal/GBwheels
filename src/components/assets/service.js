@@ -6,6 +6,8 @@ import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Container } from 'react-bootstrap';
 import React from 'react';
+import Button from 'react-bootstrap';
+
 
 function Service() {
 return(
@@ -14,41 +16,83 @@ return(
   <Row>
     <Col>
 
+
 <div  id='service'>
-<h1>services</h1>
 
-    <div className='inner'>
-
-<div > <h2> Cars Inspection</h2>
-
-
-<img src='../img/nissan.jpg' alt=''  className="img1" />
-
-<br/>
-
-<p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn <br/> asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
-</div>
-<div>
-    <h2> Cars Validation</h2>
-
-<img src="../img/whitecar.jpg" alt="" className="img1"/>
-    <br/>
-<p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn<br/>  asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
-
-</div>
-<div><h2> Cars mechanism</h2>
-
-<img src="../img/dash.jpg" alt="" className="img1"/>
-
-<br/>
-<p>lorem as asljasd alkjs aksjnas alksdasl lkjasd asndl aoisd kjlan kjandlk alkndalknd alknalkd alksdnalsn<br/>  asa asxkaslkx lkasxalksnx lkansxlka lkasnlkas</p>
-</div>
+      <div class="heading">
+            <h1>Our Services</h1>
+            <hr/>
+        </div>
 
 
+        <div class="info">
 
+            <div class="info_1">
+                <img src="img/icons/1.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+             
+           <button>Learn more</button>
+                </div>
+            </div>
 
+            <div class="info_1">
+                <img src="img/icons/2.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+           <button className=''>Learn more</button>
+                
+                </div>
+            </div>
 
-</div>
+            <div class="info_1">
+                <img src="img/icons/3.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+           <button className=''>Learn more</button>
+                        
+                </div>
+            </div>
+
+            <div class="info_1">
+                <img src="img/icons/4.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+           <button className=''>Learn more</button>
+                </div>
+            </div>
+
+            <div class="info_1">
+                <img src="img/icons/5.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+           <button className=''>Learn more</button>
+                </div>
+            </div>
+
+            <div class="info_1">
+                <img src="img/icons/6.jpg" alt=""/>
+                <div>
+                    <h1><a href="#"> Lorem Ipsum</a></h1>
+                    <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
+                        quam non harum quaerat, est quo</p>
+           <button className=''>Learn more</button>
+                </div>
+            </div>
+
+        </div>
+  
+
 
 
 

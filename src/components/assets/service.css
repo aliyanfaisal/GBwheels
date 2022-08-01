@@ -7,30 +7,19 @@ background-color: rgba(240, 248, 255, 0.634);
 padding: 40px 30px ;
 
 }
-@media screen and (max-width: 992px) {
-/* #service {
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-flex-wrap: wrap;
 
-
-} */
-
-
-.container-fluid .inner{
-
-    display: grid;
-    grid-auto-flow: row;
-     /* grid-template-rows: 100px 100px 00px; */
-     /* grid-gap: 50px; */
-     justify-content: center;
-     align-items: center;
-    
+.heading{
+    text-align: center;
 }
 
-.inner .img1{
+.container-fluid .info{
+
+     display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 5%;   
+}
+
+.info_1 .img1{
 
 width: 400px;
 height: 400px;
@@ -41,7 +30,7 @@ display: grid;
 
 }
 
-.inner .img1:hover{
+.info_1 .img1:hover{
 width: 100%;
 padding-top: 0px;
 border-radius: 100px;
@@ -51,93 +40,3 @@ display: grid;
 
 
 }
-}
-.container-fluid #service h1{
-    text-align: center;
-    color: rgba(0, 0, 0, 0.467);
-    padding-bottom: 20px;
-    font-size: 2rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.container-fluid #service h1:hover{
-    text-align: center;
-    color: rgba(194, 36, 83, 0.168);
-    padding-bottom: 20px;
-    font-size: 3rem;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.container-fluid  #service .inner h2{
-
-color: brown;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-text-align: center;
-font-size: 1.8em;
-
-    
-}
-
-.container-fluid #service .inner p{
-
-color: rgb(0, 0, 0);
-font-family:'Times New Roman', Times, serif ;
-text-align: center;
-     font-size: 1.2em;
- font-weight: 800;   
-}
-
-
-
-
-.container-fluid #service .inner div{
-box-sizing: border-box;
-border: 2px solid black;
-/* border-radius: 20px; */
-padding: 30px 15px;
-
-    
-}
-
-.container-fluid #service .inner div:hover{
-box-sizing: border-box;
-border: 4px solid rgba(169, 24, 24, 0.51);
-border-radius: 20px;
-padding: 12px 8px;
-
-    
-}
-
-
-.container-fluid .inner{
-
-    display: grid;
-    grid-auto-flow: row;
-     grid-template-columns: 400px 400px 400px;
-     grid-gap: 50px;
-     justify-content: center;
-     align-items: center;
-    
-}
-
-.inner .img1{
-
-width: 100%;
-height: auto;
-display: grid;
-/* border-radius: 100px; */
-padding-top: 20px;
-
-
-}
-
-.inner .img1:hover{
-width: 100%;
-padding-top: 0px;
-border-radius: 100px;
-border: 4px solid black;
-height: auto;
-display: grid;
-
-
-}
-
