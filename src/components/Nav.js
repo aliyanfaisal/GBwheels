@@ -3,6 +3,7 @@ import React from "react";
 import   "./Nav.css"
 // import logo from '../img/logo.svg'
 import "react-bootstrap"
+import { Button } from "react-bootstrap";
 // import { Container, Row } from "react-bootstrap";
 // import { Container } from "react-bootstrap";
 // import {Row} from 'react-bootstrap';
@@ -21,7 +22,7 @@ function  Nav() {
           <li><a href='#service'>Service</a></li>
 
 
-          
+                    <Button variant="outline-primary">Shop</Button>
           </ul>
           </nav> 
           </div>

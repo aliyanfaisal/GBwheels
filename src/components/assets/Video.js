@@ -1,10 +1,19 @@
 import React from "react";
 import './video.css';
+import { Container, Row , Col } from "react-bootstrap";
+
 
 function Video() {
 
     return (
+
+
         <div id="video">
+<Container fluid>
+    <Row>
+        <Col>
+        
+        
 
             <h1>Video</h1>
             <div className="videocars">
@@ -28,7 +37,12 @@ function Video() {
 
                 </div>
 
+                    </Col>
+                </Row>
+            </Container>
+
             </div>
+
 
 
 

@@ -7,7 +7,7 @@ import  Service from './assets/service';
 import React from 'react';
 import Footer from './assets/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from './assets/form';
+// import Form from './assets/form';
 import Filter from './assets/Data';
 // import { Container} from 'react-bootstrap';
 import Video from './assets/Video';
@@ -40,7 +40,7 @@ function App() {
     <Service/>
     <Collage/>
 <Video/>
-    <Form/>
+    {/* <Form/> */}
     <Footer/>
     </div>
       
