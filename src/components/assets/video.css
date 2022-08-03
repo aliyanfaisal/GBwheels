@@ -1,0 +1,15 @@
+
+#video{padding: 20px 10px ;
+background-color: rgb(142, 142, 142);}
+
+.videocars{
+
+
+    display: grid;
+    align-items: center;
+    grid-template-columns: 300px 300px 300px ;
+    grid-gap: 200px;
+padding: 20px 10px;
+}
+h1{color: rgb(12, 105, 105);
+text-align: center;}

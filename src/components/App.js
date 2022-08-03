@@ -10,7 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Form from './assets/form';
 import Filter from './assets/Data';
 // import { Container} from 'react-bootstrap';
-
+import Video from './assets/Video';
 // import { Row } from 'react-bootstrap';
 // import { Col } from 'react-bootstrap';
 import { Helmet } from 'react-helmet';
@@ -39,6 +39,7 @@ function App() {
 <Filter/>      
     <Service/>
     <Collage/>
+<Video/>
     <Form/>
     <Footer/>
     </div>

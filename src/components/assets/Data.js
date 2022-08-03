@@ -75,7 +75,7 @@ function Filter() {
 <br/>
 <br/>
 
-  <input type="range" id="vol" name="vol" min="1000" max="500000" onChange={priceChange}/>
+  <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange}/>
 
 <br/>
 <Button className=" bg-secondry mt-4 ">Filter</Button>

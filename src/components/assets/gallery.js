@@ -16,46 +16,47 @@ return(
     <Col>
     <div id="gallery">
 
+    <Carousel fade>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="img/auto.jpg"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="img/car3.jpg"
+          alt="Second slide"
+        />
 
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          className="d-block w-100"
+          src="img/car.jpg"
+          alt="Third slide"
+        />
 
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  
 
-<Carousel className="carousel">
-  <Carousel.Item className="caro">
-    <img
-      className="d-block w-100"
-      src="../img/nissan.jpg"
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>Nissan</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item className="caro">
-    <img
-      className="d-block w-100"
-      src="../img/whitecar.jpg"
-      alt="Second slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Ferrari</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item className="caro">
-    <img
-      className="d-block w-100"
-      src="../img/dash.jpg"
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Porsche</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-</Carousel>
 </div>
     </Col>
   </Row>

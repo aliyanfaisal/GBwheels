@@ -30,7 +30,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/1.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Documentation</a></h1>
+                    <h1> Documentation</h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
              
@@ -41,7 +41,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/2.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Engine modification</a></h1>
+                    <h1> Engine modification</h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
            <button className=''>Learn more</button>
@@ -52,7 +52,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/3.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Certification</a></h1>
+                    <h1>Certification</h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
            <button className=''>Learn more</button>
@@ -63,7 +63,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/4.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Marketing</a></h1>
+                    <h1> Marketing</h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
            <button className=''>Learn more</button>
@@ -73,7 +73,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/5.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Products</a></h1>
+                    <h1> Products</h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
            <button className=''>Learn more</button>
@@ -83,7 +83,7 @@ return(
             <div class="info_1">
                 <img src="img/icons/6.jpg" alt=""/>
                 <div>
-                    <h1><a href="#"> Proper</a></h1>
+                    <h1> Proper Handling </h1>
                     <p>Lorem ipsum, dolor Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error consequuntur
                         quam non harum quaerat, est quo</p>
            <button className=''>Learn more</button>

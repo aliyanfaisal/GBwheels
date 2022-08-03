@@ -15,9 +15,24 @@ padding: 40px 30px ;
 .container-fluid .info{
 
      display: grid;
-    grid-template-columns: 30% 30% 30%;
+
+padding: 10px 20px;
+     grid-template-columns: 30% 30% 30%;
     grid-gap: 5%;   
 }
+
+
+
+.info_1:hover {
+    border: 1px solid black;
+    padding: 12px 6px;
+    text-align: center;
+background-color: rgb(247, 247, 247);
+
+    transition: 1s;
+box-shadow: 7px 1px 4px 9px   rgba(0, 0, 255, .2);
+}
+
 
 .info_1 .img1{
 
@@ -40,3 +55,4 @@ display: grid;
 
 
 }
+.info_1 div  button{text-align: center;}
