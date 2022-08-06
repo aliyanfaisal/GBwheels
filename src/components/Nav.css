@@ -18,6 +18,10 @@ grid-template-columns: 90px 90px 90px 200px 90px;
 
 }
 
+.closebutton{
+margin: 20px;
+}
+
 .menu ul li{
 
     list-style-type: none;
