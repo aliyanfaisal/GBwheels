@@ -1,11 +1,7 @@
 import React from "react";
 import './gallery.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Carousel } from "react-bootstrap";
 
-import { Row } from "react-bootstrap";
-import {Container} from "react-bootstrap"
-import { Col } from "react-bootstrap";
+import { Row, Container, Col, Carousel } from "react-bootstrap";
 function Collage() {
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index';
-import App from './components/App';
+// import Props from './practice react/Props'
+import Home from './components/Home'
 
-// import gallery from './components/assets/gallery';
 // import reportWebVitals from './reportWebVitals';
 
 
@@ -14,8 +14,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    
-    <App />
+    {/* <Props/> */}
+    <Home />
   </React.StrictMode>
 );
 

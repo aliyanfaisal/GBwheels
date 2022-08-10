@@ -20,7 +20,7 @@ padding: 10px 20px;
      grid-template-columns: 30% 30% 30%;
     grid-gap: 5%;   
 }
-
+.info_1{text-align: center;}
 
 
 .info_1:hover {

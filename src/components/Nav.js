@@ -1,7 +1,8 @@
 import React , {useState} from "react";
 import   "./Nav.css"
-import { Form , Button } from "react-bootstrap";
+import { Form , Button} from "react-bootstrap";
 import Popup from "./assets/form";
+import  'react-bootstrap';
 
 function  Nav() {
 
@@ -19,7 +20,7 @@ function  Nav() {
         <div className="menu">
 
             {
-                isOpen && <Popup handleClose={togglePopup}
+                isOpen && <Popup  handleClose={togglePopup}
                     content={
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicName">
@@ -65,20 +66,26 @@ function  Nav() {
 
 
  
- 
-<nav>
-    
-     <ul>
+<div id="navbar"> 
+<nav><ul>
+
+                    <span><a href="https://gbwheels.com/">GB-Wheels</a></span>
+
+
+
           <li><a href='#home'>Home</a></li>
           <li><a href='#form'>About</a></li>
           <li><a href='#gallery'>Gallery</a></li>
-          <li><a href='#service'>Service</a></li>
-          {/* <Form1/> */}
+                    <li><a href='#service'>Service</a></li>
+                    <li><a href= '<Shop/>' >Shop</a></li>
 
 
-                    <Button onClick={togglePopup}>Shop</Button>
+
+                    <Button onClick={togglePopup}>Signin</Button>
+  
           </ul>
           </nav> 
+            </div>
           </div>
         
 

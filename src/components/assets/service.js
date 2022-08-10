@@ -1,15 +1,11 @@
 import './service.css';
-import  './service';
-import '../assets/service';
 import 'react-bootstrap';
-import {Row} from 'react-bootstrap';
-import {Col} from 'react-bootstrap';
-import {Container } from 'react-bootstrap';
+import {Container , Row ,Col } from 'react-bootstrap';
 import React from 'react';
-import Button from 'react-bootstrap';
+// import Button from 'react-bootstrap';
 
 
-function Service() {
+const Service = ()=> {
 return(
 
     <Container fluid>
@@ -21,6 +17,7 @@ return(
 
       <div class="heading">
             <h1>Our Services</h1>
+            
             <hr/>
         </div>
 

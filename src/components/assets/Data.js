@@ -1,8 +1,5 @@
 import React from "react";
-import  {Button, Container}  from "react-bootstrap";
-import {Row} from "react-bootstrap";
-import{Col} from "react-bootstrap";
-// import {Button} from "react-bootstrap";
+import { Row, Col,Button, Container}  from "react-bootstrap";
 import './Data.css';
 function Filter() {
   function priceChange(event){  
@@ -78,7 +75,7 @@ function Filter() {
   <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange}/>
 
 <br/>
-<Button className=" bg-secondry mt-4 ">Filter</Button>
+<button className="filterbtn">Filter</button>
 </div>
 
 

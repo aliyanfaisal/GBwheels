@@ -1,10 +1,13 @@
 
-import './App.css';
-import Nav from '../components/Nav'
-import Collage from '../components/assets/gallery';
+import './Home.css';
+import Nav from './Nav'
+import Collage from './assets/gallery';
+import React    from 'react';
 
-import  Service from './assets/service';
-import React  from 'react';
+
+
+import Service from './assets/service';
+
 import Footer from './assets/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -12,9 +15,10 @@ import Filter from './assets/Data';
 
 import Video from './assets/Video';
 import { Helmet } from 'react-helmet';
+// import Counter from '../practice react/Counter';
 
 
-function App() {
+const Home =()=> {
 
 
 
@@ -29,10 +33,21 @@ function App() {
                 <link rel="canonical" href="http://mysite.com/example" />
                 <meta name="description" content="Your car our service" />
             </Helmet>
-            <Nav/>
+
+
+
+            <Nav/>  
     <div className="app">
 <h1>Welcome to  GBwheels</h1>
 <button id='mainb' >Learn More</button>
+
+
+{/* <h1>Welcome to the counter</h1> */}
+{/* <Counter/> */}
+
+
+
+
 
         </div>
 <Filter/>      
@@ -53,4 +68,4 @@ function App() {
 );
 }
 
-export default App;
+export default Home;
