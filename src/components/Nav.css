@@ -7,10 +7,30 @@ box-sizing: border-box;}
     padding: 20px 10px;
     
 }
+/* 
+.active_class{color: white;
+font-size: 1.8em;
+text-decoration: none;} */
+#link1{
+    color:blue;
+text-decoration: none;
 
-
-
-
+    font-size: 20px;
+}
+#link1:hover{
+    color:rgb(50, 199, 184);
+text-decoration: none;
+border-radius: 2px;
+border-bottom: 2px solid yellow ;
+    font-size: 25px;
+}
+#link1:active{
+    color:rgb(199, 50, 110);
+text-decoration: none;
+border-radius: 10px;
+border-bottom: 2px solid rgb(86, 86, 4) ;
+    font-size: 25px;
+}
 .menu ul{
 display: grid;
 justify-content: right;

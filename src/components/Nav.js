@@ -3,7 +3,12 @@ import   "./Nav.css"
 import { Form , Button} from "react-bootstrap";
 import Popup from "./assets/form";
 import  'react-bootstrap';
-
+import { NavLink } from "react-router-dom";
+import Home from "./App";
+// import Collage from "./assets/gallery";
+import Video from "./assets/Video";
+import Service from "./assets/service";
+import About from "./pages/Shop/About";
 function  Nav() {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -15,9 +20,14 @@ function  Nav() {
 
 
 
-
     return (
-        <div className="menu">
+
+
+            <div className="menu">
+
+
+                 
+
 
             {
                 isOpen && <Popup  handleClose={togglePopup}
@@ -61,24 +71,18 @@ function  Nav() {
 
 
 
-
-
-
-
  
 <div id="navbar"> 
 <nav><ul>
 
+
                     <span><a href="https://gbwheels.com/">GB-Wheels</a></span>
 
+                    <NavLink exact activeClassName="active_class" id="link1" to="/Home">Home</NavLink>
+                    <NavLink exact activeClassName="active_class" id="link1" to="/About">About</NavLink>
 
-
-          <li><a href='#home'>Home</a></li>
-          <li><a href='#form'>About</a></li>
-          <li><a href='#gallery'>Gallery</a></li>
-                    <li><a href='#service'>Service</a></li>
-                    <li><a href= '<Shop/>' >Shop</a></li>
-
+                    <NavLink exact activeClassName="active_class" id="link1" to="/video">Video</NavLink>
+                    <NavLink exact activeClassName="active_class" id="link1" to="/Service">Service</NavLink>
 
 
                     <Button onClick={togglePopup}>Signin</Button>
@@ -87,7 +91,6 @@ function  Nav() {
           </nav> 
             </div>
           </div>
-        
 
     )
 

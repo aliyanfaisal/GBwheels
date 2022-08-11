@@ -2,7 +2,7 @@ import React from "react";
 import './gallery.css'
 
 import { Row, Container, Col, Carousel } from "react-bootstrap";
-function Collage() {
+export default function Gallery() {
 
 
 
@@ -63,5 +63,3 @@ return(
 
     
 }
-
-export default Collage;
