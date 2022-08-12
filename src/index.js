@@ -6,6 +6,7 @@ import './index';
 
 import { BrowserRouter } from 'react-router-dom';
 import App from './components/App';
+import Home from './components/assets/Home';
 
 // import reportWebVitals from './reportWebVitals';
 

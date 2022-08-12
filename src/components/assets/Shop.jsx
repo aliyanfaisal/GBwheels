@@ -1,21 +1,22 @@
-import React from "react"
-import Nav from "../../Nav";
+import React from "react";
+import Menu from "../Nav";
+import Filter from "./Data";
+import "./Shop.css";
 const Shop = ()=>{
 
 return(
     <div id="shop">
+<Menu/>
+<h1>HELLO THIS IS THE SHOP PAGE</h1>
+<Filter/>
 
 
-        <Nav />
-
-<div className="shops">
     <h1>Shop</h1>
     
 <img src="./img/caro1.jpg" alt="here is a image of a car" srcset="" />
 
 
     
-</div>
 
 
     </div>

@@ -31,14 +31,6 @@ border-radius: 10px;
 border-bottom: 2px solid rgb(86, 86, 4) ;
     font-size: 25px;
 }
-.menu ul{
-display: grid;
-justify-content: right;
-/* align-items: center; */
-grid-template-columns :790px  90px 90px 90px 90px 180px 110px;
-/* text-align: center; */
-
-}
 
 .closebutton{
 margin: 20px;
@@ -46,43 +38,14 @@ margin: 20px;
 
 }
 
-.shop{
+#title{
 
-margin-left: 18px;
-
+    color: white;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-.menu ul span a{
-color: red;
-font-weight: 800;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 1.9rem;
-    text-decoration: none;
-}
-.menu ul span a:hover{
-color: rgb(194, 186, 186);
-font-weight: 800;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-size: 2rem;
-    text-decoration: none;
-}
-.menu ul li{
-
-    list-style-type: none;
-    /* text-decoration: none; */
-}
-
-.menu ul li a{
-font-size: 1.5em;
-color: white;
-font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* list-style-type: none; */
-    text-decoration: none;
-}
-
-.menu ul li a:hover{
-font-size: 1.5em;
-color: rgb(255, 13, 13);
-font-family:  Arial, Helvetica, sans-serif;
-    /* list-style-type: none; */
-    text-decoration: none;
+#title:hover{
+font-size: 35px;
+font-family: serif;
+    color: rgb(204, 192, 192);
 }

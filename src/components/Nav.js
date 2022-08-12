@@ -1,15 +1,14 @@
-import React , {useState} from "react";
-import   "./Nav.css"
-import { Form , Button} from "react-bootstrap";
+import React, { useState } from "react";
+import "./Nav.css"
+import { Form, Button } from "react-bootstrap";
 import Popup from "./assets/form";
-import  'react-bootstrap';
+import 'react-bootstrap';
 import { NavLink } from "react-router-dom";
-import Home from "./App";
-// import Collage from "./assets/gallery";
-import Video from "./assets/Video";
-import Service from "./assets/service";
-import About from "./pages/Shop/About";
-function  Nav() {
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+export default function Menu() {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -23,14 +22,14 @@ function  Nav() {
     return (
 
 
-            <div className="menu">
+        <div className="menu">
 
 
-                 
+
 
 
             {
-                isOpen && <Popup  handleClose={togglePopup}
+                isOpen && <Popup handleClose={togglePopup}
                     content={
                         <Form>
                             <Form.Group className="mb-3" controlId="formBasicName">
@@ -71,29 +70,85 @@ function  Nav() {
 
 
 
- 
-<div id="navbar"> 
-<nav><ul>
+
+            <div id="navbar">
 
 
-                    <span><a href="https://gbwheels.com/">GB-Wheels</a></span>
-
-                    <NavLink exact activeClassName="active_class" id="link1" to="/Home">Home</NavLink>
-                    <NavLink exact activeClassName="active_class" id="link1" to="/About">About</NavLink>
-
-                    <NavLink exact activeClassName="active_class" id="link1" to="/video">Video</NavLink>
-                    <NavLink exact activeClassName="active_class" id="link1" to="/Service">Service</NavLink>
 
 
-                    <Button onClick={togglePopup}>Signin</Button>
-  
-          </ul>
-          </nav> 
-            </div>
+
+                <Navbar collapseOnSelect expand="lg" id="topmenu">
+                    <Container>
+                        <Navbar.Brand href="#home" id="title">GB-Wheels</Navbar.Brand>
+                        <br />
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                        <Navbar.Collapse id="responsive-navbar-nav">
+                            <Nav className="me-auto">
+                                <Nav.Link href="#features">
+
+
+
+                                    <NavLink exact activeClassName="active_class" id="link1" to="Home">Home</NavLink>
+
+
+
+
+
+
+
+                                </Nav.Link> <Nav.Link href="#">
+
+
+
+
+                                    <NavLink exact activeClassName="active_class" id="link1" to="video">Video</NavLink>
+
+
+
+
+
+
+                                </Nav.Link> 
+                                
+                                
+                                
+                                <Nav.Link href="#">
+
+
+
+
+                                    <NavLink exact activeClassName="active_class" id="link1" to="Service">Service</NavLink>
+
+
+
+
+
+
+                                </Nav.Link>
+                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="about">About</NavLink>
+                                </Nav.Link>
+                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="shop">Shop</NavLink>
+                                </Nav.Link>
+
+                            </Nav>
+                            <Nav>
+                                <Nav.Link href="#">
+                                    <Button onClick={togglePopup} className="bg-primary">Signin</Button>
+
+                                </Nav.Link>
+                            </Nav>
+                        </Navbar.Collapse>
+                    </Container>
+                </Navbar>
+
+
+
+
+
           </div>
+        </div>
 
     )
 
 
-    }
-export default Nav;
+}

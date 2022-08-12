@@ -10,6 +10,9 @@ padding: 40px 30px ;
 
 .heading{
     text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/overlay-bg.jpg);
 }
 
 .container-fluid .info{
