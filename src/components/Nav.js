@@ -88,7 +88,7 @@ export default function Menu() {
 
 
 
-                                    <NavLink exact activeClassName="active_class" id="link1" to="Home">Home</NavLink>
+                                    <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
 
 
 
@@ -127,7 +127,7 @@ export default function Menu() {
                                 </Nav.Link>
                                 <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="about">About</NavLink>
                                 </Nav.Link>
-                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="shop">Shop</NavLink>
+                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="/Shop">Shop</NavLink>
                                 </Nav.Link>
 
                             </Nav>

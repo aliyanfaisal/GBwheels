@@ -13,10 +13,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Video from './assets/Video';
 import { Helmet } from 'react-helmet';
 import { Route, Switch } from 'react-router-dom';
-import Shop from './assets/Shop';
+// import Shop from './assets/Shop';
 import Home from './assets/Home';
 import About from './assets/About';
 import Menu from './Nav';
+import Shop from './assets/Shop';
 
 
 const App = () => {
@@ -38,11 +39,12 @@ const App = () => {
 
       <Menu />
       <Switch>
-        <Route exact path="/Home" component={Home} />
+        <Route exact path="/" component={Home} />
+
+        <Route path="/Shop" component={Shop} />
         <Route exact path="/video" component={Video} />
         <Route exact path="/Service" component={Service} />
         <Route exact path="/About" component={About} />
-        <Route exact path="/Shop" component={Shop} />
 
 
       </Switch>
@@ -50,7 +52,6 @@ const App = () => {
 
 
       <div >
-
 
 
       </div>

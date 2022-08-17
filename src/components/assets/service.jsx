@@ -2,6 +2,7 @@ import './service.css';
 import 'react-bootstrap';
 import { Container, Row, Col } from 'react-bootstrap';
 import React from 'react';
+import Footer from './footer';
 // import Button from 'react-bootstrap';
 
 
@@ -97,10 +98,12 @@ const Service = () => {
 
 
 
+
+
                     </div>
 
 
-
+                    <div><Footer /></div>
 
                 </Col>
             </Row>
