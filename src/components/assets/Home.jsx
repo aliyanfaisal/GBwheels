@@ -3,6 +3,7 @@ import "./Home.css"
 
 import "react-bootstrap";
 import Filter from "./Data";
+import Footer from "./footer";
 const Home =()=>{
 
 return(
@@ -22,6 +23,8 @@ return(
 
         </div>
 
+
+<Footer/>
 
     </div>
 )

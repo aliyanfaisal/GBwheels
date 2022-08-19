@@ -1,0 +1,27 @@
+#shop {
+padding: 140px 120px ;
+border: 2px solid black;
+background-image:url(../img/hero-bg.jpg) ;
+background-position: center;
+background-size: cover;
+
+}
+
+#cards{
+
+display: grid;
+grid-template-columns: 30% 31% 33%;
+grid-gap: 40px;
+margin: 20px 10px;
+}
+
+.card{
+padding: 10px 15px;
+text-align: center;
+
+}
+.card img{
+margin: auto;
+    width: 200px;
+    height: 200px;
+} 
