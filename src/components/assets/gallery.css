@@ -13,12 +13,18 @@ background-color: rgb(176, 163, 146);
 
 /* STYLING FOR CAROUSEL */
 .carousel{padding-top: 20px ;}
-.carousel .caro img{
-width: 400px;
-height: 400px;
-background-size: cover;
-background-position: center;
 
+
+#pic{
+width: 90%;
+height: auto;
+margin: auto;
+
+}
+#cont{
+    color: aqua;
+    text-align: center;
+    margin: 20px 10px;
 }
 .container-fluid{
 padding: 0px 0px;

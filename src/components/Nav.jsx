@@ -84,25 +84,10 @@ export default function Menu() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
-                                <Nav.Link href="#features">
-
-
-
-                                    <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
-
-
-
-
-
-
-
-                                </Nav.Link> <Nav.Link href="#">
-
-
-
-
-                                    <NavLink exact activeClassName="active_class" id="link1" to="video">Video</NavLink>
-
+                                <Nav.Link href="#Home">
+<NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink> 
+                                    </Nav.Link>
+                                     <Nav.Link href="#Video"> <NavLink exact activeClassName="active_class" id="link1" to="video">Video</NavLink>
 
 
 

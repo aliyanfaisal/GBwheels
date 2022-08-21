@@ -16,16 +16,6 @@ return(
 
 <h1> SHOP </h1>
 
-
-        
-        
- 
-
-
-
-
-
-
 </div>
 <div id="cards">
 
@@ -34,7 +24,7 @@ return(
                 <img src={pic1} alt="pic1" srcset="" />
                 
                 <h2>corolla <span>g3</span> </h2>
-
+{/* <i className="fab fa-facebook fa-2x">hellow</i> */}
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.</p>
             </div>
             <div className="card">

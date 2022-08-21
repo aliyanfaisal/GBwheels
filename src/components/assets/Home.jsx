@@ -4,6 +4,7 @@ import "./Home.css"
 import "react-bootstrap";
 import Filter from "./Data";
 import Footer from "./footer";
+import Gallery from "./gallery";
 const Home =()=>{
 
 return(
@@ -16,7 +17,7 @@ return(
         </div>
 <Filter/>
         <div>
-            <div>  </div>
+            <div> <Gallery/> </div>
              <div></div>
             <div></div>
 
