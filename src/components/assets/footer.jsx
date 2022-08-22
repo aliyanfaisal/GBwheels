@@ -1,11 +1,12 @@
 import React from "react";
-// import { Col, Container, Row } from "react-bootstrap";
-import './footer.css'
-import ''
 
+import './footer.css'
+import '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
   const  Footer= ()=> {
 
     return (
+
 
         <div className='footer'>
 
@@ -49,22 +50,12 @@ import ''
                     <li>Wanderers things</li>
 
                    
-
                 </div>
-                <div>
-
-                    <h2>Social links</h2>
-
-                    <div>
-                    <i className="">    This will be assigned for respective social link </i>
-                        <i className="">This will be assigned for respective social link </i>
-                        <i className="">This will be assigned for respective social link </i>
-                        <i className="">This will be assigned for respective social link </i>
-                    </div>
-                </div>
+                
             </div>
-            <span>powered by Greymatterventures @2022</span>
-
+            <span>powered by Greymatterventures @2022         
+</span>
+           
         </div>
 
 

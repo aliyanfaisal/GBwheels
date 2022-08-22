@@ -12,7 +12,7 @@ padding: 10px 13px;
 .footer .innerdiv{
 padding-top: 20px;
 display: grid;
-grid-template-columns: 300px 300px 300px 300px;
+grid-template-columns: 25% 25% 25%;
 grid-gap: 50px;
 justify-content: center;
 align-items: center;

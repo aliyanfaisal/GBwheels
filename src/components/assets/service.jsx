@@ -9,7 +9,7 @@ import Footer from './footer';
 const Service = () => {
     return (
 
-        <Container fluid>
+        <Container fluid >
             <Row>
                 <Col>
 
@@ -103,7 +103,7 @@ const Service = () => {
                     </div>
 
 
-                    <div><Footer /></div>
+                    <div><Footer/></div>
 
                 </Col>
             </Row>
