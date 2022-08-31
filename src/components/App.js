@@ -10,7 +10,7 @@ import Service from './assets/service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Video from './assets/Video';
+import Video from './assets/mission';
 import { Helmet } from 'react-helmet';
 import { Route, Switch } from 'react-router-dom';
 // import Shop from './assets/Shop';
@@ -18,6 +18,7 @@ import Home from './assets/Home';
 import About from './assets/About';
 import Menu from './Nav';
 import Shop from './assets/Shop';
+import Mission from './assets/mission';
 
 
 const App = () => {
@@ -42,7 +43,7 @@ const App = () => {
         <Route exact path="/" component={Home} />
 
         <Route path="/Shop" component={Shop} />
-        <Route exact path="/video" component={Video} />
+        <Route exact path="/mission" component={Mission} />
         <Route exact path="/Service" component={Service} />
         <Route exact path="/About" component={About} />
 

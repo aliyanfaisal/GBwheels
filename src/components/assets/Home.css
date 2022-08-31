@@ -37,3 +37,30 @@ padding:15px ;
     border-radius: 10px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
 }
+
+.mission{
+
+padding: 20px 10px;
+background-color: blanchedalmond;
+text-align: center;
+
+}
+
+.more{
+
+    margin: auto;
+    padding: 10px 20px;
+    
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 39px;
+    align-items: center;
+
+}.more div{
+
+background-color: white;
+    padding: 19px 14px;
+/* margin: auto; */
+/* display: flex; */
+
+}

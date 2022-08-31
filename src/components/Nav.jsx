@@ -85,18 +85,18 @@ export default function Menu() {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
                                 <Nav.Link href="#Home">
-<NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink> 
-                                    </Nav.Link>
-                                     <Nav.Link href="#Video"> <NavLink exact activeClassName="active_class" id="link1" to="video">Video</NavLink>
+                                    <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
+                                </Nav.Link>
+                                <Nav.Link href="#mission"> <NavLink exact activeClassName="active_class" id="link1" to="mission">Mission</NavLink>
 
 
 
 
 
-                                </Nav.Link> 
-                                
-                                
-                                
+                                </Nav.Link>
+
+
+
                                 <Nav.Link href="#">
 
 
@@ -130,7 +130,7 @@ export default function Menu() {
 
 
 
-          </div>
+            </div>
         </div>
 
     )
