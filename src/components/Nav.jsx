@@ -7,7 +7,9 @@ import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import main from '../components/img/Menu.jpg'
 export default function Menu() {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -78,9 +80,10 @@ export default function Menu() {
 
 
                 <Navbar collapseOnSelect expand="lg" id="topmenu">
-                    <Container>
-                        <Navbar.Brand href="#home" id="title">GB-Wheels</Navbar.Brand>
-                        <br />
+                    <Container>     
+                        <NavLink exact activeClassName="active_class"   to="/">
+                        <img src={main} alt="" srcset="" id="maintitle" /></NavLink>
+                        
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
@@ -114,6 +117,10 @@ export default function Menu() {
                                 </Nav.Link>
                                 <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="/Shop">Shop</NavLink>
                                 </Nav.Link>
+                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="/Cart">
+                                    Cart
+                                </NavLink>
+                                </Nav.Link>
 
                             </Nav>
                             <Nav>
@@ -121,6 +128,12 @@ export default function Menu() {
                                     <Button onClick={togglePopup} className="bg-primary">Signin</Button>
 
                                 </Nav.Link>
+                                <NavLink exact activeClassName="active_class"  to="/Cart">
+                                    
+                                
+  <FontAwesomeIcon icon={faCartShopping} style={{color:'white' , fontSize:'1.7rem' , padding:'10px 2px' }} />
+                                </NavLink>
+
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

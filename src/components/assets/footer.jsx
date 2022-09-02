@@ -3,7 +3,8 @@ import React from "react";
 import './footer.css'
 import '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-  const  Footer= ()=> {
+import { faAddressBook, faCar, faCarSide } from "@fortawesome/free-solid-svg-icons";
+const Footer = () => {
 
     return (
 
@@ -31,6 +32,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     <br />
 
                     <map name="Gilgit-city">Gilgit</map>
+                    <h3>Social links</h3>
+
+                    <FontAwesomeIcon icon={faCarSide} />
+                    
+                    <FontAwesomeIcon icon={faAddressBook} />
+                    
+                    <FontAwesomeIcon icon={faCar} />
+<FontAwesomeIcon icon={faAddressBook}/>
 
                 </div>
                 <div>
@@ -49,13 +58,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
                     <li>Driving Folk</li>
                     <li>Wanderers things</li>
 
-                   
+
                 </div>
-                
+
             </div>
-            <span>powered by Greymatterventures @2022         
-</span>
-           
+            <div></div>
+            <span>powered by Greymatterventures @2022
+            </span>
+
         </div>
 
 

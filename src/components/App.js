@@ -19,6 +19,7 @@ import About from './assets/About';
 import Menu from './Nav';
 import Shop from './assets/Shop';
 import Mission from './assets/mission';
+import Cart from './assets/Cart';
 
 
 const App = () => {
@@ -46,6 +47,7 @@ const App = () => {
         <Route exact path="/mission" component={Mission} />
         <Route exact path="/Service" component={Service} />
         <Route exact path="/About" component={About} />
+        <Route exact path="/cart" component={Cart} />
 
 
       </Switch>

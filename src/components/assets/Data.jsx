@@ -1,6 +1,8 @@
 import React from "react";
 import { Row, Col,Button, Container}  from "react-bootstrap";
-import './Data.css';
+import './Data.css'
+import { NavLink } from "react-router-dom";
+
 function Filter() {
   function priceChange(event){  
       var value = event.target.value;
@@ -75,7 +77,10 @@ function Filter() {
   <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange}/>
 
 <br/>
-<button className="filterbtn">Filter</button>
+                <NavLink exact activeClassName="active_class" id="link1" to="/Shop">
+                  
+                
+                  <button className="filterbtn">Filter</button></NavLink>
 </div>
 
 
