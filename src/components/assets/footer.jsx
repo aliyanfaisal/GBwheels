@@ -1,5 +1,4 @@
 import React from "react";
-
 import './footer.css'
 import '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,20 +17,18 @@ const Footer = () => {
 
 
 
-                <div>
-                    <h3>GB-Wheels</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint magnam, molestias culpa, ab distinctio possimus vero nemo commodi earum iusto soluta quod accusamus officia suscipit id eveniet labore consequuntur tenetur deleniti maxime?</p>
-
+                <div >
+                    <h2>GB-Wheels</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci asperiores quas illo minima eum impedit, excepturi veniam odio dolorem eveniet dignissimos vitae magnam quibusdam saepe nisi error totam sunt autem veritatis ipsum corrupti fuga! Odit et deleniti cupiditate, ut id soluta cum sequi perspiciatis quis. Praesentium sequi perspiciatis blanditiis ab.</p>
                 </div>
-                <div>
+                <div id="address">
 
                     <h3>Addresss</h3>
-                    <address>Gilgit city</address>
+                    <address >Gilgit city</address>
                     <h3>Phone</h3>
                     <label htmlFor="phone" type="integer">+923554300327</label>
                     <br />
 
-                    <map name="Gilgit-city">Gilgit</map>
                     <h3>Social links</h3>
 
                     <FontAwesomeIcon icon={faCarSide} />
@@ -42,10 +39,8 @@ const Footer = () => {
 <FontAwesomeIcon icon={faAddressBook}/>
 
                 </div>
-                <div>
+                <div id="otherstuff">
                     <h3>Partners</h3>
-
-
                     <li>Greymatterventures (Gmv)</li>
                     <li>Mountainfolk</li>
                     <li>Northern-Hope</li>
@@ -62,8 +57,9 @@ const Footer = () => {
                 </div>
 
             </div>
-            <div></div>
-            <span>powered by Greymatterventures @2022
+
+<hr />
+            <span>powered by Greymatterventures @2022 all rights reserved
             </span>
 
         </div>

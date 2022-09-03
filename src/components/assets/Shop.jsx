@@ -4,6 +4,8 @@ import Footer from "./footer";
 import pic1 from "../img/caro1.jpg"
 import pic2 from "../img/cars.jpg"
 import pic3 from "../img/testimonial.jpg"
+// import Card from "reacts";
+// import { Card , Button } from "react-bootstrap";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -20,11 +22,26 @@ const Shop = () => {
                 <h1> SHOP </h1>
 
             </div>
-            <div id="content">            <h1>Products</h1>
+            <div id="content">
+
+                
+            <h1>Products</h1>
                 <p>Following are some products related to this search</p>
 </div>
 
             <hr />
+{/* 
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src={pic1} />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+                        Some quick example text to build on the card title and make up the
+                        bulk of the card's content.
+                    </Card.Text>
+                    <Button variant="primary">Go somewhere</Button>
+                </Card.Body>
+            </Card>  */}
             <div id="cards">
 
 

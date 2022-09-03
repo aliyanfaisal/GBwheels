@@ -64,3 +64,63 @@ background-color: white;
 /* display: flex; */
 
 }
+
+.accordion-header {
+
+background-color: black;
+
+
+} 
+.accordion-header button{
+
+background-color: black;
+color: white;
+}
+.accordion-header:active {
+
+background-color: #fff;
+
+
+} 
+.accordion-header button:active{
+
+background-color: #fff;
+color: black;
+
+}
+.accordion-collapse {
+
+background-color: black;
+color: #fff;
+}
+#accord{
+
+align-items: center;
+
+
+}
+#information div form{
+
+    background-color: rgb(77, 142, 170);
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+
+#information{
+
+display: grid;
+margin: auto;
+grid-area: auto;
+grid-gap: 50px;
+grid-template-columns: 45% 45%;
+padding: 30px 40px;
+
+
+
+}
+
+
+h3{
+text-align: center;
+    /* padding: 10px 5px; */
+}
