@@ -4,8 +4,11 @@ import Footer from "./footer";
 import pic1 from "../img/caro1.jpg"
 import pic2 from "../img/cars.jpg"
 import pic3 from "../img/testimonial.jpg"
+import { Container , Col , Row } from "reactstrap";
+
+
 // import Card from "reacts";
-// import { Card , Button } from "react-bootstrap";
+import { Card , Button} from "react-bootstrap";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -14,6 +17,10 @@ const Shop = () => {
 
     return (
         <React.Fragment>
+<Container fluid>
+<Row>
+
+    <Col>
 
             <div id="shop" >
 
@@ -21,7 +28,7 @@ const Shop = () => {
 
                 <h1> SHOP </h1>
 
-            </div>
+            </div> 
             <div id="content">
 
                 
@@ -30,18 +37,73 @@ const Shop = () => {
 </div>
 
             <hr />
-{/* 
+
+            <Card >
+                <Card.Img variant="top" src={pic1} />
+                <Card.Body>
+                    <Card.Title>Card Title</Card.Title>
+                    <Card.Text>
+
+                        <h2>Hyundai <span>w3</span> </h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.
+                        </p>
+
+                        <h4>Specifications</h4>
+                        <b>
+                            <ol>
+                                <li>Model:<span>2021</span></li>
+                                <li>Enginee: 400hp</li>
+                                <li>Mileage:20012</li>
+                                <li>Color:yellow , black , white</li>
+
+                            </ol>
+                        </b>
+                        <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
+                        <h5>Price:20 lacs</h5>
+                        <hr />
+
+
+                    </Card.Text>
+                    <Button variant="primary">    <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
+                        <FontAwesomeIcon icon={faCartShopping} />
+                    </NavLink>
+                    </Button>
+                </Card.Body>
+            </Card>
             <Card style={{ width: '18rem' }}>
                 <Card.Img variant="top" src={pic1} />
                 <Card.Body>
                     <Card.Title>Card Title</Card.Title>
                     <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+
+                        <h2>Hyundai <span>w3</span> </h2>
+                        <hr />
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.
+                        </p>
+
+                        <h4>Specifications</h4>
+                        <b>
+                            <ol>
+                                <li>Model:<span>2021</span></li>
+                                <li>Enginee: 400hp</li>
+                                <li>Mileage:20012</li>
+                                <li>Color:yellow , black , white</li>
+
+                            </ol>
+                        </b>
+                        <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
+                        <h5>Price:20 lacs</h5>
+                        <hr />
+
+
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="primary">    <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
+                        <FontAwesomeIcon icon={faCartShopping} />
+                    </NavLink>
+                    </Button>
                 </Card.Body>
-            </Card>  */}
+            </Card> 
             <div id="cards">
 
 
@@ -65,7 +127,7 @@ const Shop = () => {
                             </ol>
                         </b>
                         <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
-                        <h5>Price:2000000Pkr</h5>
+                        <h5>Price:20 lacs</h5>
                         <hr />
 
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
@@ -230,7 +292,12 @@ const Shop = () => {
 
 
             <Footer />
+                </Col>
+            </Row>
+
+        </Container>
         </React.Fragment>
+
     )
 
 

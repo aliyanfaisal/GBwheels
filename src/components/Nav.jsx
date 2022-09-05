@@ -10,6 +10,9 @@ import Navbar from 'react-bootstrap/Navbar';
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import main from '../components/img/Menu.jpg'
+import Dropdown from 'react-bootstrap/Dropdown';
+
+
 export default function Menu() {
 
     const [isOpen, setIsOpen] = useState(false);
@@ -22,8 +25,6 @@ export default function Menu() {
 
 
     return (
-
-
         <div className="menu">
 
 
@@ -80,10 +81,10 @@ export default function Menu() {
 
 
                 <Navbar collapseOnSelect expand="lg" id="topmenu">
-                    <Container>     
-                        <NavLink exact activeClassName="active_class"   to="/">
-                        <img src={main} alt="" srcset="" id="maintitle" /></NavLink>
-                        
+                    <Container>
+                        <NavLink exact activeClassName="active_class" to="/">
+                            <img src={main} alt="" srcset="" id="maintitle" /></NavLink>
+
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
@@ -124,15 +125,49 @@ export default function Menu() {
 
                             </Nav>
                             <Nav>
+ 
+ 
+
+                                <Dropdown>
+                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                        Post ad
+                                    </Dropdown.Toggle>
+
+                                    <Dropdown.Menu>
+
+                                        <NavLink exact activeClassName="active_class" to="/Sellcar" >  <Dropdown.Item href="sell car">Sell a car</Dropdown.Item>
+
+
+                                        </NavLink>
+
+
+
+                                        <NavLink exact activeClassName="active_class" to="/SellA" >  <Dropdown.Item href="Sell accessory">Sell accessory</Dropdown.Item>
+                                        </NavLink>
+
+                                    </Dropdown.Menu>
+                                </Dropdown>
+ 
+ 
+ 
+ 
+ 
                                 <Nav.Link href="#">
                                     <Button onClick={togglePopup} className="bg-primary">Signin</Button>
 
                                 </Nav.Link>
-                                <NavLink exact activeClassName="active_class"  to="/Cart">
-                                    
-                                
-  <FontAwesomeIcon icon={faCartShopping} style={{color:'white' , fontSize:'1.7rem' , padding:'10px 2px' }} />
+                                <NavLink exact activeClassName="active_class" to="/Cart">
+
+
+                                    <FontAwesomeIcon icon={faCartShopping} style={{ color: 'white', fontSize: '1.7rem', padding: '10px 2px' }} />
                                 </NavLink>
+
+
+
+
+
+
+
 
                             </Nav>
                         </Navbar.Collapse>

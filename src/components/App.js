@@ -20,6 +20,8 @@ import Menu from './Nav';
 import Shop from './assets/Shop';
 import Mission from './assets/mission';
 import Cart from './assets/Cart';
+import SellA from './assets/Subpages/SellA';
+import Sellcar from './assets/Subpages/Sellcar';
 
 
 const App = () => {
@@ -48,6 +50,8 @@ const App = () => {
         <Route exact path="/Service" component={Service} />
         <Route exact path="/About" component={About} />
         <Route exact path="/cart" component={Cart} />
+        <Route exact path="/SellA" component={SellA} />
+        <Route exact path="/Sellcar" component={Sellcar} />
 
 
       </Switch>

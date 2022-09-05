@@ -1,8 +1,7 @@
 import React from "react";
 import './footer.css'
-import '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faAddressBook, faCar, faCarSide } from "@fortawesome/free-solid-svg-icons";
+import { SocialIcon } from "react-social-icons";
+
 const Footer = () => {
 
     return (
@@ -29,14 +28,23 @@ const Footer = () => {
                     <label htmlFor="phone" type="integer">+923554300327</label>
                     <br />
 
-                    <h3>Social links</h3>
+<div style={{padding:'10px 4px'}}>
 
-                    <FontAwesomeIcon icon={faCarSide} />
-                    
-                    <FontAwesomeIcon icon={faAddressBook} />
-                    
-                    <FontAwesomeIcon icon={faCar} />
-<FontAwesomeIcon icon={faAddressBook}/>
+                        <h3>Social links</h3>
+
+
+<div id="social">
+
+                        <SocialIcon url="facebook.com" />
+
+                        <SocialIcon url="twitter.com" />
+
+
+                        <SocialIcon url="instagram.com" />
+
+
+                        </div></div>
+
 
                 </div>
                 <div id="otherstuff">

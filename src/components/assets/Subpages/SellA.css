@@ -1,0 +1,27 @@
+.sellaccessory{
+    background-color: aliceblue;
+    /* font-size: 2rem; */
+    padding: 40px 20px;
+height: 300px;
+
+
+
+
+
+
+}
+
+.sellaccessory h1{
+
+
+    text-align: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.sellaccessory p{
+
+
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

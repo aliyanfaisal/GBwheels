@@ -1,0 +1,58 @@
+#maindiv{
+    background-color: aliceblue;
+    width: 100%;
+    background-size: cover;
+    height: 400px;
+    padding: 80px 10px;
+    text-align: center;
+
+}
+
+#maindiv h1{
+
+font-size: 2em;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: 600;
+
+
+
+}
+#maindiv p{
+
+font-size: 1.2em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+/* font-weight: 600; */
+
+
+
+}
+
+#sellcar h3{
+text-align: center;
+margin-top: 30px;
+/* font-size: 1.2rem; */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+#sellcar p{
+text-align: center;
+margin-top: 30px;
+/* font-size: 1.2rem; */
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#sellcar Form{
+margin: 50px 90px;
+padding: 30px 25px;
+border: 2px solid black;
+/* text-align: center; */
+}
+
+
+#submit-btn{margin: auto;
+text-align: center;
+
+}

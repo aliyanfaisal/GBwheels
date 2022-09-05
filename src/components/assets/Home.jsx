@@ -65,27 +65,27 @@ const Home = () => {
                                 <div>
                                 <h3>FAQS</h3>
                                         <hr />
-                                <Accordion id="accord" >
-                                        <Accordion.Item >
+                                        <Accordion defaultActiveKey="0" >
+                                                <Accordion.Item eventKey="0">
                                                 <Accordion.Header>What type of Vehicles GBwheels handle.?</Accordion.Header>
                                                 <Accordion.Body>
 
                                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum commodi quidem omnis aliquid veritatis minima sequi! Nisi, eligendi soluta.
                                                 </Accordion.Body>
-                                        </Accordion.Item><Accordion.Item >
+                                                </Accordion.Item><Accordion.Item eventKey="1">
                                                 <Accordion.Header>How will i get paid ?</Accordion.Header>
                                                 <Accordion.Body>
 
                                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum commodi quidem omnis aliquid veritatis minima sequi! Nisi, eligendi soluta.
                                                 </Accordion.Body>
-                                        </Accordion.Item><Accordion.Item >
+                                                </Accordion.Item><Accordion.Item eventKey="2">
                                                 <Accordion.Header>Do you sell or buy bikes?</Accordion.Header>
                                                 <Accordion.Body>
 
                                                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur harum commodi quidem omnis aliquid veritatis minima sequi! Nisi, eligendi soluta.
                                                 </Accordion.Body>
                                         </Accordion.Item>
-                                        <Accordion.Item >
+                                                <Accordion.Item eventKey="3">
                                                 <Accordion.Header>How long it take to buy or sell cars?</Accordion.Header>
                                                 <Accordion.Body>
                                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum itaque minus officiis, ipsa mollitia sit illum! Velit explicabo eos voluptatem?
