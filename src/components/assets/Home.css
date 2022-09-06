@@ -99,20 +99,9 @@ align-items: center;
 
 
 }
-#information div form{
-
-    background-color: rgb(77, 142, 170);
-    margin-top: 10px;
-    padding: 20px 10px;
-}
 
 #information{
 
-display: grid;
-margin: auto;
-grid-area: auto;
-grid-gap: 50px;
-grid-template-columns: 45% 45%;
 padding: 30px 40px;
 
 

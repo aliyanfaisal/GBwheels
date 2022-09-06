@@ -4,6 +4,7 @@ import { Form , Container , Row ,Col , Button } from "react-bootstrap";
 
 
 import './SellA.css';
+import { Input } from "reactstrap";
 const SellA = () => {
 
 
@@ -96,7 +97,8 @@ const SellA = () => {
                                     </Form.Group>
 
                                     <Form.Group className="mb-3" controlId="formBasic">
-                                        <Form.Control type="checkbox" placeholder="files" />
+                                        <Input type="checkbox"  />
+                                        
                                         <Form.Label>I hereby agree to all terms and conditions </Form.Label>
                                     </Form.Group>
                                     <Button variant="primary" type="submit" id="submit-btn" className="btn-center">

@@ -1,5 +1,8 @@
 .sellaccessory{
     background-color: aliceblue;
+/* background-image: url(//public/img/nissan.jpg); */
+
+
     /* font-size: 2rem; */
     padding: 40px 20px;
 height: 300px;
@@ -11,8 +14,9 @@ height: 300px;
 
 }
 
-.sellaccessory h1{
 
+.sellaccessory h1::-ms-reveal{
+background-color: aqua;
 
     text-align: center;
     font-size: 2rem;

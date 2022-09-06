@@ -38,72 +38,6 @@ const Shop = () => {
 
             <hr />
 
-            <Card >
-                <Card.Img variant="top" src={pic1} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-
-                        <h2>Hyundai <span>w3</span> </h2>
-                        <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.
-                        </p>
-
-                        <h4>Specifications</h4>
-                        <b>
-                            <ol>
-                                <li>Model:<span>2021</span></li>
-                                <li>Enginee: 400hp</li>
-                                <li>Mileage:20012</li>
-                                <li>Color:yellow , black , white</li>
-
-                            </ol>
-                        </b>
-                        <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
-                        <h5>Price:20 lacs</h5>
-                        <hr />
-
-
-                    </Card.Text>
-                    <Button variant="primary">    <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-                        <FontAwesomeIcon icon={faCartShopping} />
-                    </NavLink>
-                    </Button>
-                </Card.Body>
-            </Card>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={pic1} />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-
-                        <h2>Hyundai <span>w3</span> </h2>
-                        <hr />
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.
-                        </p>
-
-                        <h4>Specifications</h4>
-                        <b>
-                            <ol>
-                                <li>Model:<span>2021</span></li>
-                                <li>Enginee: 400hp</li>
-                                <li>Mileage:20012</li>
-                                <li>Color:yellow , black , white</li>
-
-                            </ol>
-                        </b>
-                        <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
-                        <h5>Price:20 lacs</h5>
-                        <hr />
-
-
-                    </Card.Text>
-                    <Button variant="primary">    <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-                        <FontAwesomeIcon icon={faCartShopping} />
-                    </NavLink>
-                    </Button>
-                </Card.Body>
-            </Card> 
             <div id="cards">
 
 
@@ -156,7 +90,7 @@ const Shop = () => {
                         </b>
                         <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
 
-                        <h5>Price:2009000Pkr</h5>
+                        <h5>Price:20.7 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
@@ -186,7 +120,7 @@ const Shop = () => {
 
                         <span>Rating:<FontAwesomeIcon icon={faStar} glow /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
 
-                        <h5>Price:2087900Pkr</h5>
+                        <h5>Price:32.3 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
@@ -217,7 +151,7 @@ const Shop = () => {
                             </ol>
                         </b>
                         <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
-                        <h5>Price:2000000Pkr</h5>
+                        <h5>Price:20.4 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 <button id="addtocart" type="submit">Add to Cart  <FontAwesomeIcon icon={faCartShopping} /></button>
@@ -245,7 +179,7 @@ const Shop = () => {
                         </b>
                         <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
 
-                        <h5>Price:2009000Pkr</h5>
+                        <h5>Price: 14.2 lacs</h5>
                         <hr />                        <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
                             <button type="submit" id="addtocart">Add to Cart<FontAwesomeIcon icon={faCartShopping} /></button>
@@ -273,9 +207,9 @@ const Shop = () => {
                             </ol>
                         </b>
 
-                        <span>Rating:<FontAwesomeIcon icon={faStar} glow /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
+                                    <span>Rating:   </span><FontAwesomeIcon icon={faStar} glow /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} />
 
-                        <h5>Price:938200Pkr</h5>
+                        <h5>Price:93.4 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 

@@ -90,8 +90,9 @@ return(
                                 <Form.Control type="file" placeholder="files" />
                             </Form.Group>
 
-                            <Form.Group className="mb-3" controlId="formBasic">
+                            <Form.Group className="mb-3" controlId="formBasicCheckbox">
                                 <input type="checkbox"  />
+ 
                                 <Form.Label>I hereby agree to all terms and conditions </Form.Label>
                             </Form.Group>
                 <Button variant="primary" type="submit" id="submit-btn" className="btn-center">
