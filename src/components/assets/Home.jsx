@@ -5,24 +5,62 @@ import "react-bootstrap";
 import Filter from "./Data";
 import Footer from "./footer";
 import Gallery from "./gallery";
-import { Form } from "react-bootstrap";
+
 import { Accordion } from "react-bootstrap";
-import { faCableCar } from "@fortawesome/free-solid-svg-icons";
-import { faBusinessTime} from "@fortawesome/free-solid-svg-icons";
-import { faBarChart } from "@fortawesome/free-solid-svg-icons";
+import { faBusinessTime, faCableCar ,faBarChart } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Button } from "react-bootstrap";
+
 import { NavLink } from "react-router-dom";
 const Home = () => {
-
+ 
         return (
                 <React.Fragment>
                         <div className="app">
+<div>
+                                <h1>Find the Car You Want, Your Way</h1>
+                                <p>Then, build your deal to fit your needs.
+</p>
 
-                                <h1>Welcome to GBwheels</h1>
-                                <NavLink to='/about'>
-                                <button href="">Click here</button>
+                                </div>
+                                <div className="btnset">
+
+                                <NavLink to='/Shop' >
+                                                <button href="" id="shop2" className="col-4">Shop here</button>
                                 </NavLink>
+
+
+<br />                                        
+
+
+                                        <NavLink exact activeClassName="active_class" to="/Sellcar"  > 
+                                        <button id="sellcars" className="col-2">
+                                                        Sell a car
+
+
+
+                                        </button>
+                                         
+
+                                        </NavLink>
+
+
+
+
+
+
+
+
+                                        <NavLink exact activeClassName="active_class" to="/SellBike">
+
+                                                <button href="" id="sellbikes" className="col-2">Sell bike</button>
+
+                                        </NavLink>
+                                        
+                                        
+                                </div>
+
+
+
                         </div>
 
                         <Filter />

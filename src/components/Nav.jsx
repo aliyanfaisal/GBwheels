@@ -3,13 +3,15 @@ import "./Nav.css"
 import { Form, Button } from "react-bootstrap";
 import Popup from "./assets/form";
 import 'react-bootstrap';
+
 import { NavLink } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import main from '../components/img/Menu.jpg'
+import main1 from '../components/img/Menu2.png'
+
 import Dropdown from 'react-bootstrap/Dropdown';
 import { NavDropdown } from "react-bootstrap";
 
@@ -81,14 +83,26 @@ export default function Menu() {
 
 
 
+
                 <Navbar collapseOnSelect expand="lg" id="topmenu">
                     <Container>
                         <NavLink exact activeClassName="active_class" to="/">
-                            <img src={main} alt="" srcset="" id="maintitle" /></NavLink>
+                            <img src={main1} alt="" srcset="" id="maintitle" />
+                            
+                            
+                            
+                            </NavLink>
 
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="me-auto">
+
+
+                            </Nav>
+                            <Nav>
+ 
+
+
                                 <Nav.Link href="#Home">
                                     <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
                                 </Nav.Link>
@@ -99,9 +113,9 @@ export default function Menu() {
 
 
                                 </Nav.Link>
-                                
-                                
-                              
+
+
+
 
 
 
@@ -131,111 +145,7 @@ export default function Menu() {
                                 </Nav.Link>
                                 <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="about">About</NavLink>
                                 </Nav.Link>
-                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="/Shop">Shop</NavLink>
-                                </Nav.Link>
-                                <Nav.Link href="#"><NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-                                    Cart
-                                </NavLink>
-                                </Nav.Link>
-
-                                <Nav.Link href="#">
-
-
-
-
-                                    <NavLink exact activeClassName="active_class" id="link1" to="Bikes">Bikes</NavLink>
-
-
-
-
-
-
-                                </Nav.Link>
-
-
-
-
-
-
-                                <NavDropdown title="Cars" id="nav-dropdown" className="p-0" >
-                                    <NavDropdown.Item eventKey="4.1">
-
-                                        <NavLink exact activeClassName="active_class" id="link1"  to="/UsedCars"  >  Usedcars
-
-
-                                        </NavLink>
-
-
-
-                                    </NavDropdown.Item>
-
-
-
-
-
-
-
-
-
-                                    <NavDropdown.Item eventKey="4.2">
-                                        <NavLink exact activeClassName="active_class" to="/Newcars" id="link1" >  Newcars
-
-
-                                        </NavLink>
-                                    </NavDropdown.Item>
-                                </NavDropdown>
-
-
-
-
-
-
-
-
-
-                            </Nav>
-                            <Nav>
- 
- 
-
-                                <Dropdown>
-                                    <Dropdown.Toggle variant="success" id="dropdown-basic">
-                                        Post ad
-                                    </Dropdown.Toggle>
-
-                                    <Dropdown.Menu>
-
-                                        <NavLink exact activeClassName="active_class" to="/Sellcar" >  <Dropdown.Item href="sell car">Sell a car</Dropdown.Item>
-
-
-                                        </NavLink>
-
-
-
-                                        <NavLink exact activeClassName="active_class" to="/SellA" >  <Dropdown.Item href="Sell accessory">Sell accessory</Dropdown.Item>
-                                        </NavLink>
-
-                                    </Dropdown.Menu>
-                                </Dropdown>
- 
- 
- 
- 
- 
-                                <Nav.Link href="#">
-                                    <Button onClick={togglePopup} className="bg-primary">Signin</Button>
-
-                                </Nav.Link>
-                                <NavLink exact activeClassName="active_class" to="/Cart">
-
-
-                                    <FontAwesomeIcon icon={faCartShopping} style={{ color: 'white', fontSize: '1.7rem', padding: '10px 2px' }} />
-                                </NavLink>
-
-
-
-
-
+                                
 
 
 

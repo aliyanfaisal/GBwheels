@@ -121,6 +121,8 @@ const Shop = () => {
 
             <hr />
 
+
+
             <div id="cards">
 
 
