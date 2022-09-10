@@ -11,6 +11,7 @@ import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import main from '../components/img/Menu.jpg'
 import Dropdown from 'react-bootstrap/Dropdown';
+import { NavDropdown } from "react-bootstrap";
 
 
 export default function Menu() {
@@ -91,13 +92,27 @@ export default function Menu() {
                                 <Nav.Link href="#Home">
                                     <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
                                 </Nav.Link>
-                                <Nav.Link href="#mission"> <NavLink exact activeClassName="active_class" id="link1" to="mission">Mission</NavLink>
+                                <Nav.Link href="#mission"> <NavLink exact activeClassName="active_class" id="link1" to="mission">Blog</NavLink>
 
 
 
 
 
                                 </Nav.Link>
+                                
+                                
+                              
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -122,6 +137,61 @@ export default function Menu() {
                                     Cart
                                 </NavLink>
                                 </Nav.Link>
+
+                                <Nav.Link href="#">
+
+
+
+
+                                    <NavLink exact activeClassName="active_class" id="link1" to="Bikes">Bikes</NavLink>
+
+
+
+
+
+
+                                </Nav.Link>
+
+
+
+
+
+
+                                <NavDropdown title="Cars" id="nav-dropdown" className="p-0" >
+                                    <NavDropdown.Item eventKey="4.1">
+
+                                        <NavLink exact activeClassName="active_class" id="link1"  to="/UsedCars"  >  Usedcars
+
+
+                                        </NavLink>
+
+
+
+                                    </NavDropdown.Item>
+
+
+
+
+
+
+
+
+
+                                    <NavDropdown.Item eventKey="4.2">
+                                        <NavLink exact activeClassName="active_class" to="/Newcars" id="link1" >  Newcars
+
+
+                                        </NavLink>
+                                    </NavDropdown.Item>
+                                </NavDropdown>
+
+
+
+
+
+
+
+
 
                             </Nav>
                             <Nav>

@@ -23,3 +23,37 @@ background-color: beige;
 h2{text-align: center;
 padding: 10px 15px;}
 
+
+
+/* Media-query */
+
+
+
+@media all and (max-width:500px){
+
+
+
+#video{padding: 20px 10px ;
+background-color: rgb(63, 170, 189);}
+
+.videocars{
+
+margin: auto;
+    display: block;
+    padding: 20px 10px;
+
+}
+.videocars div iframe{
+padding: 20px 10px;
+width: 300px ;
+height: 400px;
+
+
+}
+
+
+
+
+
+
+}

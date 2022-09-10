@@ -17,7 +17,7 @@ const SellA = () => {
 
 
     
-            <h1>Hello this is sell a accessory  page</h1>
+            <h1>Hello this is sell a bike page</h1>
             <hr />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, earum facilis quia molestiae ab tempore ea, sint quod harum optio exercitationem labore repudiandae, delectus provident unde!</p>
 </div>
@@ -30,7 +30,7 @@ const SellA = () => {
 
 
                             <div id="sellcar">
-                                <h3>Sell your Accessory</h3>
+                                <h3>Sell your Bike</h3>
                                 <p>In this form you will fill all the required documents</p>
 
                                 <Form>

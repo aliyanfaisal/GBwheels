@@ -1,7 +1,8 @@
 import React from "react";
 import './footer.css'
 import { SocialIcon } from "react-social-icons";
-
+import { NavLink } from "react-router-dom";
+import { Nav } from "react-bootstrap";
 const Footer = () => {
 
     return (
@@ -65,6 +66,22 @@ const Footer = () => {
                 </div>
 
             </div>
+
+            <Nav.Link href="#">
+
+
+
+
+                <NavLink exact activeClassName="active_class" id="link2" to="Terms">Terms and conditons</NavLink>
+
+
+
+
+
+
+            </Nav.Link>
+
+
 
 <hr />
             <span>powered by Greymatterventures @2022 all rights reserved

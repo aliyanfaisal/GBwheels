@@ -67,22 +67,6 @@ function Filter() {
 </select>
 
 </div>
-<div >
-
-  
-<span>Select Price: <span id="price_span"></span> </span>
-<br/>
-<br/>
-
-  <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange}/>
-
-<br/>
-                <NavLink exact activeClassName="active_class" id="link1" to="/Shop">
-                  
-                
-                  <button className="filterbtn">Filter</button></NavLink>
-</div>
-
 
 <div >
 <br/>
@@ -119,25 +103,47 @@ function Filter() {
 </select>
 </div>
 
-<div >
-<br/>
+              <div >
+                <br />
 
-  
-<span>Select Mileage</span>
-<br/>
-<br/>
-<select name="Tesla" id="tesla" >
-<option value="tesla">-Select-</option>
 
-<option value="10000">10000</option>
-<option value="120000">120000</option>
-<option value="12123">12123</option>
-<option value="22021">22021</option>
+                <span>Select Mileage</span>
+                <br />
+                <br />
+                <select name="Tesla" id="tesla" >
+                  <option value="tesla">-Select-</option>
 
-</select>
+                  <option value="10000">10000</option>
+                  <option value="120000">120000</option>
+                  <option value="12123">12123</option>
+                  <option value="22021">22021</option>
+
+                </select>
+
+              </div>
+
+
+
+
+
 
 </div>
-</div>
+
+            <div id="filter-test" >
+
+
+              <span>Select Price: <span id="price_span"></span> </span>
+              <br />
+              <br />
+
+              <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange} />
+
+              <br />
+              <NavLink exact activeClassName="active_class" id="link1" to="/Shop">
+
+
+                <button className="filterbtn">Filter</button></NavLink>
+            </div>
 
 
 </div>

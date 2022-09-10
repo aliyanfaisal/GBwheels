@@ -60,3 +60,40 @@ display: grid;
 
 }
 .info_1 div  button{text-align: center;}
+
+
+
+
+
+
+/*----------------- MEDIA-QUERY------------ */
+
+
+
+
+
+
+@media all and (max-width:500px){
+
+
+
+.container-fluid .info{
+
+     display: block;
+
+padding: 15px 20px;
+  
+}
+.info_1{text-align: center;
+
+    margin-bottom: 40px;
+}
+
+}
+
+
+
+
+
+
+

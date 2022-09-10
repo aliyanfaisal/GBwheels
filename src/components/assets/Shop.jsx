@@ -9,6 +9,7 @@ import { Container , Col , Row } from "reactstrap";
 
 // import Card from "reacts";
 import { Card , Button} from "react-bootstrap";
+import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
@@ -29,11 +30,93 @@ const Shop = () => {
                 <h1> SHOP </h1>
 
             </div> 
+
+                        <div id="shopfilters">
+                        <div  >
+                            <br />
+
+
+                            <span>Select Mileage</span>
+                            <br />
+                            <br />
+                            <select name="Tesla" id="tesla" >
+                                <option value="tesla">-Select-</option>
+
+                                <option value="10000">10000</option>
+                                <option value="120000">120000</option>
+                                <option value="12123">12123</option>
+                                <option value="22021">22021</option>
+
+                            </select>
+
+                        </div>
+
+                            <div >
+                                <br />
+
+
+                                <span>Select certification</span>
+                                <br />
+                                <br />
+                                <select name="Tesla" id="tesla" >
+                                    <option value="tesla">-Select-</option>
+
+                                    <option value="certified">Certified</option>
+                                    <option value="non-certfied">Non-Certified</option>
+                                </select>
+
+                            </div>
+
+
+                            <div >
+                                <br />
+
+
+                                <span>Select City</span>
+                                <br />
+                                <br />
+                                <select name="Tesla" id="tesla" >
+                                    <option value="tesla">-Select-</option>
+
+                                    <option value="10000">Gilgit</option>
+                                    <option value="120000">Skardu</option>
+                                    <option value="12123">Ghizer</option>
+                                    <option value="22021">Hunza</option>
+
+                                </select>
+
+                            </div>
+
+                        <div >
+                            <br />
+
+
+                            <span>Select Mileage</span>
+                            <br />
+                            <br />
+                            <select name="Tesla" id="tesla" >
+                                <option value="tesla">-Select-</option>
+
+                                <option value="10000">10000</option>
+                                <option value="120000">120000</option>
+                                <option value="12123">12123</option>
+                                <option value="22021">22021</option>
+
+                            </select>
+
+                        </div>
+                        </div>
+
+
+
+
+
+
             <div id="content">
 
                 
             <h1>Products</h1>
-                <p>Following are some products related to this search</p>
+              
 </div>
 
             <hr />
@@ -65,7 +148,7 @@ const Shop = () => {
                         <hr />
 
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-                        <button id="addtocart" type="submit">Add to Cart  <FontAwesomeIcon icon={faCartShopping} /></button>
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
                         </NavLink>
                     </div>
                 </div>
@@ -94,7 +177,7 @@ const Shop = () => {
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
-                            <button type="submit" id="addtocart">Add to Cart<FontAwesomeIcon icon={faCartShopping} /></button>
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
                             
                             </NavLink>
@@ -124,7 +207,7 @@ const Shop = () => {
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
-                            <button type="submit" id="addtocart">Add to Cart<FontAwesomeIcon icon={faCartShopping} /></button>
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
 
                         </NavLink>
@@ -154,7 +237,7 @@ const Shop = () => {
                         <h5>Price:20.4 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-<button id="addtocart" type="submit">Add to Cart  <FontAwesomeIcon icon={faCartShopping} /></button>
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
                         </NavLink>              </div>
                 </div>
@@ -182,8 +265,7 @@ const Shop = () => {
                         <h5>Price: 14.2 lacs</h5>
                         <hr />                        <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
 
-                            <button type="submit" id="addtocart">Add to Cart<FontAwesomeIcon icon={faCartShopping} /></button>
-
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
                         </NavLink>
 
@@ -212,8 +294,7 @@ const Shop = () => {
                         <h5>Price:93.4 lacs</h5>
                         <hr />
                         <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-
-                            <button type="submit" id="addtocart">Add to Cart<FontAwesomeIcon icon={faCartShopping} /></button>
+                                        <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
 
                         </NavLink>

@@ -1,5 +1,6 @@
 #maindiv{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+background-image: url(../../img/hero-bg.jpg);
     width: 100%;
     background-size: cover;
     height: 400px;
@@ -11,6 +12,7 @@
 #maindiv h1{
 
 font-size: 2em;
+color: white;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 font-weight: 600;
 
@@ -18,7 +20,7 @@ font-weight: 600;
 
 }
 #maindiv p{
-
+color: rgb(255, 0, 51);
 font-size: 1.2em;
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 /* font-weight: 600; */
@@ -54,5 +56,28 @@ border: 2px solid black;
 
 #submit-btn{margin: auto;
 text-align: center;
+
+}
+
+
+/* ------------------------Media-query------------------- */
+
+
+@media all and (max-width:500px){
+
+
+
+#sellcar Form{
+margin: 10px 10px;
+padding: 30px 25px;
+border: 2px solid black;
+/* text-align: center; */
+}
+
+
+#submit-btn{margin: auto;
+text-align: center;
+
+}
 
 }

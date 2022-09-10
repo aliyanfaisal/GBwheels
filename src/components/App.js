@@ -22,6 +22,10 @@ import Mission from './assets/mission';
 import Cart from './assets/Cart';
 import SellA from './assets/Subpages/SellA';
 import Sellcar from './assets/Subpages/Sellcar';
+import Usedbike from './assets/Subpages/Bikes/Usedbike';
+import Usedcar from './assets/Subpages/Cars/Usedcar';
+import Newcar from './assets/Subpages/Cars/Newcar';
+import Terms from './assets/Subpages/Terms and conditions/Terms';
 
 
 const App = () => {
@@ -52,6 +56,10 @@ const App = () => {
         <Route exact path="/cart" component={Cart} />
         <Route exact path="/SellA" component={SellA} />
         <Route exact path="/Sellcar" component={Sellcar} />
+        <Route exact path="/Newcars" component={Newcar} />
+        <Route exact path="/Usedcars" component={Usedcar} />
+        <Route exact path="/Bikes" component={Usedbike} />
+        <Route exact path="/Terms" component={Terms} />
 
 
       </Switch>

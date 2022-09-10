@@ -45,3 +45,59 @@ color: azure;
 padding: 10px 5px;
 
 }
+#link2{
+
+    text-decoration: none;
+font-size: 1.3em;
+
+}
+
+
+#link2::before{
+content: "-";
+    text-decoration: none;
+font-size: 1.3em;
+text-align: center;
+margin: auto;
+}
+
+
+
+
+/* Media query */
+
+@media all and (max-width:500px){
+
+
+
+
+
+
+
+.footer .innerdiv{
+padding-top: 20px;
+display: block;
+align-items: center;
+}
+.footer span{
+    display: block;
+    padding: 10px 20px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+
+
+.innerdiv #address{
+    text-align: center;
+}
+#otherstuff h3{
+
+    text-align: left;
+
+
+}
+
+
+}
