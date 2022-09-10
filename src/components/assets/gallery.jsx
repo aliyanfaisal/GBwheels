@@ -7,7 +7,7 @@ export default function Gallery() {
 
 
 return(
-<Container fluid>
+<Container fluid >
   <Row>
     <Col>
     <div id="gallery">
