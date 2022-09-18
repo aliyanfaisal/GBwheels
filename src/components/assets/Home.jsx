@@ -24,17 +24,17 @@ const Home = () => {
                                 </div>
                                 <div className="btnset">
 
-                                <NavLink to='/Shop' >
+                                <NavLink to='/Shop' id="shops" >
                                                 <button href="" id="shop2" className="col-4">Shop here</button>
                                 </NavLink>
 
 
-<br />                                        
+                                   
 
 
-                                        <NavLink exact activeClassName="active_class" to="/Sellcar"  > 
-                                        <button id="sellcars" className="col-2">
-                                                        Sell a car
+                                        <NavLink exact activeClassName="active_class" to="/Sellvehicle"  > 
+                                        <button id="sellcars" className="">
+                                                        Sell Vehicle
 
 
 
@@ -50,12 +50,6 @@ const Home = () => {
 
 
 
-                                        <NavLink exact activeClassName="active_class" to="/SellBike">
-
-                                                <button href="" id="sellbikes" className="col-2">Sell bike</button>
-
-                                        </NavLink>
-                                        
                                         
                                 </div>
 

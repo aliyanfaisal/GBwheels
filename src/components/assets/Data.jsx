@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col,Button, Container}  from "react-bootstrap";
+import { Row, Col, Container}  from "react-bootstrap";
 import './Data.css'
 import { NavLink } from "react-router-dom";
 
@@ -8,6 +8,14 @@ function Filter() {
       var value = event.target.value;
       document.querySelector("#price_span").innerHTML=value
   }
+
+
+    
+
+
+
+
+
 
 
   return(
@@ -24,7 +32,7 @@ function Filter() {
 <span>Select Brand</span>
 <br/>
 <br/>
-<select name="brand" id="brand" required>
+<select name="brand" id="brand" required >
 <option value="">-Select-</option>
 
 <option value="tesla">Tesla</option>
@@ -38,7 +46,7 @@ function Filter() {
 <div ><span>Select Make</span>
 <br/>
 <br/>
-<select name="Tesla" id="tesla"  required>
+<select name="Tesla" id="brand"  required>
 <option value="">-Select-</option>
 
 
@@ -56,7 +64,7 @@ function Filter() {
 <span>Select Model</span>
 <br/>
 <br/>
-<select name="Tesla" id="tesla" required>
+<select name="Tesla" id="brand" required>
 <option value="">-Select-</option>
 
 <option value="tesla">Tesla</option>
@@ -73,7 +81,7 @@ function Filter() {
 <span>Select Year</span>
 <br/>
 <br/>
-<select name="year" id="year"  required>
+<select name="year" id="brand"  required>
 <option value="tesla">-Select-</option>
 
 
@@ -92,7 +100,7 @@ function Filter() {
   <span>Select Condition</span>
 <br/>
 <br/>
-<select name="select" id="select1" required>
+<select name="select" id="brand" required>
 <option value="">-Select-</option>
 
 <option value="tesla">Certified</option>
@@ -110,7 +118,7 @@ function Filter() {
                 <span>Select Mileage</span>
                 <br />
                 <br />
-                <select name="Tesla" id="tesla" >
+                <select name="Tesla" id="brand"  >
                   <option value="tesla">-Select-</option>
 
                   <option value="10000">10000</option>

@@ -1,0 +1,16 @@
+.card{
+
+display: contents;
+padding: 10px 4px;
+}
+#addtocart{
+    mix-blend-mode: difference;
+
+}
+#addtocart a{
+
+    text-decoration:none ;
+    color: blue;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

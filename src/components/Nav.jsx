@@ -103,10 +103,10 @@ export default function Menu() {
  
 
 
-                                <Nav.Link href="#Home">
+                                <Nav.Link href="">
                                     <NavLink exact activeClassName="active_class" id="link1" to="/">Home</NavLink>
                                 </Nav.Link>
-                                <Nav.Link href="#mission"> <NavLink exact activeClassName="active_class" id="link1" to="mission">Blog</NavLink>
+                                <Nav.Link href=""> <NavLink exact activeClassName="active_class" id="link1" to="blog">Blog</NavLink>
 
 
 

@@ -1,7 +1,9 @@
 import React from "react"
 import './form.css';
  
-const Popup = props =>{
+const Popup = (props) =>{
+
+
 return (
 
   <div id="form"> 

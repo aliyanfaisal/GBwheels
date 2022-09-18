@@ -59,8 +59,20 @@ display: grid;
 
 
 }
-.info_1 div  button{text-align: center;}
+.info_1 div  button{text-align: center;  
+border: 1px solid black;
+border-radius: 10px;
+padding: 8px 10px;
 
+}
+
+.info_1 div h1{
+
+font-size: 24px;
+color: black;
+padding: 4px 5px;
+
+}
 
 
 

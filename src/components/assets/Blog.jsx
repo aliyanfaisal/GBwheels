@@ -1,22 +1,30 @@
 import React from "react";
-import './mission.css';
+import './Blog.css';
 import { Container, Row, Col } from "react-bootstrap";
 import Footer from "./footer";
 
 
-function Mission() {
+function Blog() {
 
     return (
 
 <React.Fragment>
-        <div id="video">
             <Container fluid>
                 <Row>
                     <Col>
 
+<div className="missions">
 
 
-                        <h1>Mission</h1>
+    
+<h1>Mission</h1>
+<hr />
+</div>
+
+<div>
+
+                        <h2>Marketing videos</h2>
+<hr />
                         <div className="videocars">
 
 
@@ -37,14 +45,7 @@ function Mission() {
 
 
                         </div>
-                        <div id="car-videos"><h2>Car-Videos</h2>
-
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe voluptate provident, obcaecati accusamus labore itaque,<br /> distinctio praesentium, doloremque laboriosam non. Animi reprehenderit voluptates impedit temporibus illum vitae<br /> voluptate officia. Sequi tempora in adipisci unde pariatur. Sit nam perspiciatis tempora.,<br />
-                                Ad temporibus est inventore officiis, dolorum debitis accusantium ipsam sit tenetur.</p></div>
-
-<div>
-<h2>Marketing videos</h2>
-
+ 
 
 
 <div className="videocars">
@@ -70,8 +71,7 @@ function Mission() {
                 
             </Container>
             
-        </div>
-
+        
 
 
 
@@ -90,4 +90,4 @@ function Mission() {
 
 }
 
-export default Mission;
+export default Blog;

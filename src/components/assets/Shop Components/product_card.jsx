@@ -1,35 +1,69 @@
 import React from "react";
+import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
+import { NavLink, Redirect, Route, Router, Switch } from "react-router-dom";
+import "./product-card.css"
 
-function ProductCard(product){
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Footer from "../footer";
+
+function ProductCard({item}){
+
+     
+
     return (
         <React.Fragment>
-        <div className="card">
-            <img src={product.url} alt="pic1" srcset="" />
 
-            <div>
-                <h2>{product.name} <span>Gl4</span> </h2>
+
+            {item.map((val)=>{
+
+function contacts () {
+    return val.contact;
+
+
+    
+}
+
+return(
+
+<div className="card">
+            <div key={val.id}>
+                <h2>{val.car}  </h2>
+                <img src={val.pic} alt={val.imgalt} srcset="" />
+
                 <hr />
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, possimus.
-                </p>
+                <p> {val.info}</p>
 
                 <h4>Specifications</h4>
                 <b>
-                    <ol>
-                        <li>Model:<span>2021</span></li>
-                        <li>Enginee: 400hp</li>
-                        <li>Mileage:20012</li>
-                        <li>Color:yellow , black , white</li>
+                    <ul>
+                        <li>{val.model}</li>
+                        <li>{val.maker}</li>
+                        <li>{val.color}</li>
+                        <li>{val.price}</li>
 
-                    </ol>
+                    </ul>
                 </b>
-                <span>Rating:<FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /><FontAwesomeIcon icon={faStar} /></span>
-                <h5>Price:20.4 lacs</h5>
                 <hr />
-                <NavLink exact activeClassName="active_class" id="link1" to="/Cart">
-                    <button type="submit" id="addtocart">Contact-Seller <FontAwesomeIcon icon={faSquarePhone} /></button>
 
-                </NavLink>              </div>
+
+
+
+
+
+
+
+                    <button type="submit" id="addtocart" ><a href="tel:" onClick={contacts}>Contact-Seller <FontAwesomeIcon icon={faSquarePhone}/></a>  </button>
+
+
+                    </div>
+
+
+
+
+
+        
         </div>
+       )     })}
  
         </React.Fragment>
     )

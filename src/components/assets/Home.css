@@ -1,7 +1,6 @@
 .app{
     background-image: url(../img/newbg.jpg);
     width: 100%;
-    background-position: contain;
     background-size: cover !important;
     height: 800px;
   
@@ -16,10 +15,8 @@ padding-top: 110px;
 
 }.app  .btnset{
 
-  padding-right: 430px; ;
     /* text-align: center; */
   padding-top: 70px;
-
 
 
 }
@@ -44,17 +41,17 @@ font-weight: 600;
 text-align: right;
 
 }
+#shops{
+padding-right: 30px;
+
+}
 .app  #shop2{
-    /* text-align: inlin; */
     background-color: white;
     color: black;
     border: 1px solid #6AB5EC;
-    padding: 5px 15px;
     font-size: 1.3em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-/* text-align: center; */
-    margin-bottom: 15px;
 }
 
 .app  #shop2:hover{
@@ -147,7 +144,7 @@ text-align: center;
 #sellcars{
 
 font-size: 16px;
-padding: 4px 15px;
+padding: 6px 45px;
 background-color: #3469AD;
 border:  1px solid black;
  border-radius: 10px;
@@ -205,45 +202,55 @@ margin-bottom: 15px;
 
 
 .app{
-    background-image: url(../img/front.jpg);
+    background-image: url(../img/newbg.jpg);
     width: 100%;
     background-position: contain;
     background-size: cover;
-    height: 400px;
+    height: 500px;
     padding: 80px 10px;
     text-align: center;
     /* height: max-content.\; */
 }
-.app h1{
-font-size: 2.3rem;
-font-family:Georgia, 'Times New Roman', Times, serif;
-color: white;
-padding:15px ;
-/* text-align: center; */
+.app div {
+padding: 0;
+margin: auto;
+text-align: center;
+
 
 }
-.app  button{
+.app h1{
+font-size: 2.3rem;
+font-family:'Times New Roman', Times, serif;
+color: white;
+text-align: center;
+}
+.app  .btnset{
     /* text-align: inlin; */
     background-color: transparent;
     color: white;
     border: none;
     padding: 10px 5px;
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* border-radius: 10px; */
 }
 
-.app  button:hover{
-    
+.app  #shop2{
     /* text-align: inlin; */
     background-color: white;
     color: black;
-    border: 2px solid black;
-    padding: 10px 8px;
+    border: 1px solid #6AB5EC;
+    padding: 5px 15px;
+    font-size:17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+/* text-align: center; */
+    /* margin-bottom: 15px; */
 }
+.app #sellcars{
 
+font-size: 15px;
 
+}
 
 }

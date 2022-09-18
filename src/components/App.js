@@ -10,17 +10,16 @@ import Service from './assets/service';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Video from './assets/mission';
 import { Helmet } from 'react-helmet';
 import { Route, Switch } from 'react-router-dom';
 import Home from './assets/Home';
 import About from './assets/About';
 import Menu from './Nav';
 import Shop from './assets/Shop';
-import Mission from './assets/mission';
-import SellBike from './assets/Subpages/SellBike';
-import Sellcar from './assets/Subpages/Sellcar';
+import Mission from './assets/Blog';
 import Terms from './assets/Subpages/Terms and conditions/Terms';
+import Sellvehicle from './assets/Subpages/Sellvehicle';
+import Blog from './assets/Blog';
 
 
 const App = () => {
@@ -45,11 +44,10 @@ const App = () => {
         <Route exact path="/" component={Home} />
 
         <Route path="/Shop" component={Shop} />
-        <Route exact path="/mission" component={Mission} />
+        <Route exact path="/blog" component={Blog} />
         <Route exact path="/Service" component={Service} />
         <Route exact path="/About" component={About} />
-        <Route exact path="/SellBike" component={SellBike} />
-        <Route exact path="/Sellcar" component={Sellcar} />
+        <Route exact path="/Sellvehicle" component={Sellvehicle} />
         <Route exact path="/Terms" component={Terms} />
 
 

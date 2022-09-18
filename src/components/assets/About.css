@@ -11,16 +11,35 @@ color: black;
 
 
 }
+.mainabout{
+background-image: url(../img/paper-banking-cool-using-company.jpg);
+width: 100%;
+height: 500px;
+background-position: center;
+background-size: cover;
+
+
+}
+.mainabout h1{
+padding-top: 100px;
+
+
+}
 #about div h1::first-letter{
 color: rgb(26, 53, 53);
 font-size: 3em;
+
+}
+
+#about div h1{
+text-align: left;
 
 }
 #about div p{
 
 font-size: 1rem;
 color: white;
-text-align: justify;
+text-align: left;
 /* font-family: 'Courier New', Courier, monospace; */
 
 
