@@ -1,8 +1,10 @@
 let productdata = [
 
     {
+
+        id: '1',
         car: "corrolla",
-pic: "https://c.ndtvimg.com/2021-08/loudr2go_aloo-poha_625x300_05_August_21.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350",
+pic: "img/auto.jpg",
 imgalt:":) required image is loading",
    
         model: "g3",
@@ -10,15 +12,16 @@ imgalt:":) required image is loading",
         color: ["red ", "yellow", "blue"],
         price: '7.4 lacs',
         info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
-        id: '1',
+        
         contact: '+923554300327'
         , category: "NCP"
 
 
     }, {
+        id: '2',
         car: "Tesla",
         
-        pic: "https://efgapyear.com/wp-content/uploads/2019/07/Samantha-Donndelinger-2-247x247.jpg",
+        pic: "img/car3.jpg",
         imgalt:":) required image is loading",
 
         model: "T2v.1",
@@ -28,15 +31,13 @@ imgalt:":) required image is loading",
         info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
         
         contact: '+923445245623',
-
-
-        id: '2'
         
-        , category: "NCP"
+         category: "Gov"
     }, {
+        id: "3",
         car: "Fielder",
         
-        pic: "https://efgapyear.com/wp-content/uploads/2019/07/Samantha-Donndelinger-2-247x247.jpg",
+        pic: "img/cars.jpg",
         imgalt:":) required image is loading",
 
         model: "qq3",
@@ -45,15 +46,16 @@ imgalt:":) required image is loading",
         price: '6.4 lacs'
         , info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
 
-        contact: '+923439460183',
-        id: '3'
+        contact: '+923439460183'
+
         
-        , category: "GOV"
+        , category: "Certified"
     },
     {
+        id: '4',
         car: "Vitz",
         
-        pic: "https://efgapyear.com/wp-content/uploads/2019/07/Samantha-Donndelinger-2-247x247.jpg",
+        pic: "img/dash.jpg",
         model: "V324",
         maker: "yamaha",
         color: ["yellow", "blue"],
@@ -61,15 +63,15 @@ imgalt:":) required image is loading",
         , info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
         imgalt:":) required image is loading",
 
-        contact: '+923439460183',
-        id: '4'
+        contact: '+923439460183'
         
-        , category: "EST"
+        , category: "Gov"
     },
     {
+        id: '5',
         car: "Mehran",
         
-        pic: "https://efgapyear.com/wp-content/uploads/2019/07/Samantha-Donndelinger-2-247x247.jpg",
+        pic: "img/caro1.jpg",
         model: "V34",
         maker: "pak-motors",
         imgalt:":) required image is loading",
@@ -80,14 +82,14 @@ imgalt:":) required image is loading",
 
         contact: '+923410723399',
         
-        id: '5'
         
-        , category: "Certified"
+        
+         category: "Certified"
     },
-    {
+    {id: '6',
         car: "Vigo",
         
-        pic: "https://efgapyear.com/wp-content/uploads/2019/07/Samantha-Donndelinger-2-247x247.jpg",
+        pic: "img/car.jpg",
         model: "V324",
         maker: "establishment-venture",
         color: ["yellow", "blue"],
@@ -97,9 +99,9 @@ imgalt:":) required image is loading",
          info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
 
         contact: '+923410723399',
-        id: '6'
         
-        , category: "Certified"
+        
+         category: "NCP"
     }
 
 

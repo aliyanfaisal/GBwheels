@@ -2,20 +2,11 @@ import React, { useState } from "react";
 import "./Shop.css";
 import Footer from "./footer";
 import { Container, Col, Row } from "reactstrap";
+import Products from "./Shop Components/product_card";
 
-import productdata from "./Shop Components/shop-data/shopdata";
-import ProductCard from "./Shop Components/product_card";
 
 
 const Shop = () => {
-
-
-const [item , setItem]= useState(productdata)
-
-
-
-
-
     return (
         <React.Fragment>
             <Container fluid>
@@ -108,7 +99,10 @@ const [item , setItem]= useState(productdata)
 
 
 
+                        </Col>
+                </Row>
 
+            </Container>
 
 
                         <div id="content">
@@ -122,11 +116,8 @@ const [item , setItem]= useState(productdata)
 
 
 
-                        <div id="cards">
-
-                            <div className="card">
-                                
-                                <ProductCard item={item}/>
+                        
+                                <Products/>
                                 
                                 
                                 
@@ -139,19 +130,11 @@ const [item , setItem]= useState(productdata)
 
 
 
-                            </div>
-
-
-                        </div>
-
-
+                          
 
 
                         <Footer />
-                    </Col>
-                </Row>
-
-            </Container>
+                    
         </React.Fragment>
 
     )
