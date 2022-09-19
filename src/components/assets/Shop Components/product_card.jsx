@@ -44,16 +44,24 @@ setItem(updateditems);
         <React.Fragment>
 
 <h1 className="mt-5 text-center">Select your required Vehicle</h1>
-        <hr />
+        <hr /><span>Select certification</span>
+                                <br />
+                                <br />
+                                
+
 
 
 <div className="Container">
 <div className="menu-tab  d-flex justify-content-around">
 
-<button className="btn btn-warning" onClick={()=> filterItem('Gov')}>GOV</button>
-<button  className="btn btn-warning" onClick={()=> filterItem('Certified')}>Certified</button>
+<select name="Tesla" id="tesla" >
+                                    
+
+
 <button  className="btn btn-warning" onClick={()=> filterItem('NCP')}>NCP</button>
 <button  className="btn btn-warning" onClick={()=> setItem(productdata)}>ALL</button>
+                                </select>
+{/* <button  className="btn btn-warning" onClick={()=> filterItem('Certified')}>Certified</button> */}
 
 
 
