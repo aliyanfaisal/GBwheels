@@ -3,10 +3,11 @@ import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { NavLink, Redirect, Route, Router, Switch } from "react-router-dom";
 import "./product-card.css"
 import "bootstrap";
-import { Container , Row , Col } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import productdata from "./shop-data/shopdata";
 import { ready } from "jquery";
+import { Input } from "reactstrap";
 
 
 
@@ -14,28 +15,29 @@ import { ready } from "jquery";
 
 
 
-function Products(){
-// using react states
-    const [items , setItem] =React.useState(productdata);
+function Products() {
+    // using react states
+    const [items, setItem] = React.useState(productdata);
 
-    const filterItem =(catgitem)=>{
+    const filterItem = (event) => {
 
-const updateditems = productdata.filter((cureElem)=>{
-
-
-
-return cureElem.category === catgitem;
+        console.log("dsadas")
+            let item= event.target;
+        const updateditems = productdata.filter((cureElem) => {
 
 
+            let itemName= cureElem[item.getAttribute("name")]
+
+            console.log("type  ", cureElem)
+            if(typeof(itemName)=="object"){
+                console.log("yrdd",(item.value))
+                return Object.values(itemName).includes(item.value) 
+            }  
+            return itemName == item.value;
 
 
+        })
 
-
-
-
-
-
-})
 setItem(updateditems);
     }
 
@@ -43,45 +45,117 @@ setItem(updateditems);
     return (
         <React.Fragment>
 
-<h1 className="mt-5 text-center">Select your required Vehicle</h1>
-        <hr /><span>Select certification</span>
+
+<Container fluid>
+                <Row>
+
+                    <Col>
+
+                        <div id="shop" >
+
+
+                            <h1> SHOP </h1>
+
+                        </div>
+
+
+                        <div id="shopfilters">
+                            <div  >
+                     
+
+                                <span>Select Mileage</span>
                                 <br />
                                 <br />
-                                
+                                <Input onChange={filterItem} name="mileage" id="mileage" type="select">
+                                    <option value="select">-Select-</option>
+
+                                    <option value="10000">10000</option>
+                                    <option value="120000">120000</option>
+                                    <option value="12123">12123</option>
+                                    <option value="22021">22021</option>
+
+                                </Input>
+
+                            </div>
+
+                            <div >
+                     
+
+                                <span>Select certification</span>
+                                <br />
+                                <br />
+                                <Input  onChange={filterItem} name="color" id="color" type="select" >
+                                    <option value="tesla">-Select-</option>
+
+                                    <option value="red">red</option>
+                                    <option value="yellow">yellow</option>
+                                </Input>
+
+                            </div>
 
 
+                            <div >
+                     
 
-<div className="Container">
-<div className="menu-tab  d-flex justify-content-around">
+                                <span>Select City</span>
+                                <br />
+                                <br />
+                                <Input  onChange={filterItem} name="maker" id="maker" type="select" >
+                                    <option value="tesla">-Select-</option>
 
-<select name="Tesla" id="tesla" >
+                                    <option value="honda">Honda</option>
+                                    <option value="yamaha">Yamaha</option>
+
+                                </Input>
+
+                            </div>
+
+                            <div >
+                     
+
+                                <span>Select Model</span>
+                                <br />
+                                <br />
+                                <Input onChange={filterItem} name="maker" id="tesla"  type="select">
+                                    <option value="tesla">-Select-</option>
+
                                     
 
+                                    <option value="pak-motors">pak-motors</option>
+                                    <option value="establishment-venture">establishment-venture</option>
+                                    <option value="yamaha">yamaha</option>
+                                    <option value="iconics">iconics</option>
 
-<button  className="btn btn-warning" onClick={()=> filterItem('NCP')}>NCP</button>
-<button  className="btn btn-warning" onClick={()=> setItem(productdata)}>ALL</button>
-                                </select>
-{/* <button  className="btn btn-warning" onClick={()=> filterItem('Certified')}>Certified</button> */}
+                                </Input>
 
+                            </div>
+                        </div>
 
 
 
-</div>
-</div>
+                        </Col>
+                </Row>
 
-{/* MAIN DATA SECTION */}
-{/* using map method to get data */}
+            </Container>
 
 
 
 
 
+            <div className="Container my-4">
+                <div className="menu-tab  d-flex justify-content-around">
 
 
 
+                <button onClick={()=>setItem(productdata)} className="btn btn-primary ">All-Products</button>
+                            
 
 
+                </div>
+            </div>
 
+            {/* MAIN DATA SECTION */}
+            {/* using map method to get data */}
 
 
 
@@ -89,147 +163,151 @@ setItem(updateditems);
 
 
 
-<div className="menu-items container-fluid mt-5">
-<div className="row">
-    <div className="col-11 mx-auto" >
 
 
-<div className="row my-5">
 
 
-{/*-------------------------------------- using Map function----------------------------------------- */}
 
 
-{
-items.map((elem)=>{
-// destructuring incoming data
 
-const {id , car ,pic , model , maker , color ,price ,imgalt ,info , contact , category}=elem; 
 
 
 
 
+            <div className="menu-items container-fluid mt-5">
+                <div className="row">
+                    <div className="col-11 mx-auto" >
 
 
+                        <div className="row my-5">
 
 
+                            {/*-------------------------------------- using Map function----------------------------------------- */}
 
-function Contactseller(){
 
-    return contact
-    
-    }
+                            {
+                                items.map((elem) => {
+                                    // destructuring incoming data
 
-return(
+                                    const { id, car, pic, model, maker, color, price, imgalt, info, contact, category } = elem;
 
 
 
 
-<div className="item1 col-12 col-md-6  col-lg-4 col-xl-4">
 
-<div className="row  item-inside">
-<div className="col-12 col-md-12 col-lg-4 img-div ">
 
-<img src={pic} alt={imgalt}  className="img-fluid" />
 
-</div>
 
+                                    return (
 
 
 
 
-{/* menu-description */}
+                                        <div className="item1 col-12 col-md-6  col-lg-4 col-xl-4">
 
-<div className="col-12 col-md-12 col-lg-8">
+                                            <div className="row  item-inside">
+                                                <div className="col-12 col-md-12 col-lg-4 img-div ">
 
+                                                    <img src={pic} alt={imgalt} className="img-fluid" />
 
-<div className="main-title pt-4 pb-3">
+                                                </div>
 
-<h1>{car}</h1>
-<p>{info}</p>
-</div>
 
-<div className="me">
 
 
-<div className=" d-flex justify-content-around ">
-<span>price:{price}</span>
 
+                                                {/* menu-description */}
 
+                                                <div className="col-12 col-md-12 col-lg-8">
 
-<a href="tel:+" onClick={Contactseller} >
-    <button className="btn btn-warning text-center" >
-    
-   
-   
-   contact-seller
-   </button>
 
-   </a>
-</div>
+                                                    <div className="main-title pt-4 pb-3">
 
+                                                        <h1>{car}</h1>
+                                                        <p>{info}</p>
+                                                    </div>
 
-</div>
+                                                    <div className="me">
 
 
+                                                        <div className=" d-flex justify-content-around ">
+                                                            <span>price:{price}</span>
 
 
-</div>
 
+                                                            <a href={"tel:"+contact} >
+                                                                <button className="btn btn-warning text-center" >
 
 
 
-</div>
+                                                                 <FontAwesomeIcon icon={faSquarePhone}/>   contact-seller
+                                                                </button>
 
+                                                            </a>
+                                                        </div>
 
 
+                                                    </div>
 
 
-</div>
 
 
+                                                </div>
 
 
 
 
+                                            </div>
 
 
 
 
 
+                                        </div>
 
 
 
 
 
 
-    
-)
 
 
 
 
 
 
-})
 
-}
 
 
 
 
-</div>
 
+                                    )
 
 
 
 
 
-    </div>
-</div>
 
+                                })
 
-</div>
+                            }
+
+
+
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
 
 
 

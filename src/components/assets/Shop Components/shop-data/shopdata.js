@@ -15,6 +15,8 @@ imgalt:":) required image is loading",
         
         contact: '+923554300327'
         , category: "NCP"
+        
+        ,mileage: "10000"
 
 
     }, {
@@ -26,13 +28,15 @@ imgalt:":) required image is loading",
 
         model: "T2v.1",
         maker: "Tesla",
-        color: ["red ", "yellow", "blue"],
+        color: ["red", "yellow", "blue"],
         price: '74.5 lacs',
         info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
         
         contact: '+923445245623',
         
          category: "Gov"
+         
+        ,mileage: "120000"
     }, {
         id: "3",
         car: "Fielder",
@@ -50,6 +54,8 @@ imgalt:":) required image is loading",
 
         
         , category: "Certified"
+        
+        ,mileage: "12123"
     },
     {
         id: '4',
@@ -66,6 +72,7 @@ imgalt:":) required image is loading",
         contact: '+923439460183'
         
         , category: "Gov"
+        ,mileage: "22021"
     },
     {
         id: '5',
@@ -85,6 +92,8 @@ imgalt:":) required image is loading",
         
         
          category: "Certified"
+         
+        ,mileage: "10000"
     },
     {id: '6',
         car: "Vigo",
@@ -102,6 +111,8 @@ imgalt:":) required image is loading",
         
         
          category: "NCP"
+         
+        ,mileage: "10000"
     }
 
 
