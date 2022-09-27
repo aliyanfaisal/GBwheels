@@ -10,7 +10,7 @@ imgalt:":) required image is loading",
         model: "g3",
         maker: "hyundai",
         color: ["red ", "yellow", "blue"],
-        price: '7.4 lacs',
+        price: '400000 ',
         info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
         
         contact: '+923554300327'
@@ -29,7 +29,7 @@ imgalt:":) required image is loading",
         model: "T2v.1",
         maker: "Tesla",
         color: ["red", "yellow", "blue"],
-        price: '74.5 lacs',
+        price: '1700000 lacs',
         info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
         
         contact: '+923445245623',
@@ -44,10 +44,10 @@ imgalt:":) required image is loading",
         pic: "img/cars.jpg",
         imgalt:":) required image is loading",
 
-        model: "qq3",
+        model: "q3",
         maker: "iconics",
         color: ["yellow", "blue"],
-        price: '6.4 lacs'
+        price: '600000 lacs'
         , info: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, ipsum!",
 
         contact: '+923439460183'
@@ -62,7 +62,7 @@ imgalt:":) required image is loading",
         car: "Vitz",
         
         pic: "img/dash.jpg",
-        model: "V324",
+        model: "V34",
         maker: "yamaha",
         color: ["yellow", "blue"],
         price: '72.4 lacs'
@@ -79,7 +79,7 @@ imgalt:":) required image is loading",
         car: "Mehran",
         
         pic: "img/caro1.jpg",
-        model: "V34",
+        model: "M23",
         maker: "pak-motors",
         imgalt:":) required image is loading",
 
@@ -99,7 +99,7 @@ imgalt:":) required image is loading",
         car: "Vigo",
         
         pic: "img/car.jpg",
-        model: "V324",
+        model: "A23",
         maker: "establishment-venture",
         color: ["yellow", "blue"],
         price: '72.4 lacs',

@@ -214,10 +214,15 @@ setItem(updateditems);
 
                                                 <div className="col-12 col-md-12 col-lg-8">
 
+                                                    <h2>{car}</h2>
 
                                                     <div className="main-title pt-4 pb-3">
-
-                                                        <h1>{car}</h1>
+<span>Specs</span>
+<hr />
+                                                        <ul><li>{model}</li>
+                                                            <li>{category}</li>
+                                                            <li>{maker}</li>
+                                                            <li>{color}</li></ul>
                                                         <p>{info}</p>
                                                     </div>
 
