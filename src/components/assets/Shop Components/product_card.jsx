@@ -1,42 +1,36 @@
-import React from "react";
+import React ,{useState} from "react";
 import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
-import { NavLink, Redirect, Route, Router, Switch } from "react-router-dom";
 import "./product-card.css"
 import "bootstrap";
 import { Container, Row, Col } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import productdata from "./shop-data/shopdata";
-import { ready } from "jquery";
 import { Input } from "reactstrap";
-
-
-
-
-
-
 
 function Products() {
     // using react states
-    const [items, setItem] = React.useState(productdata);
+    const [items, setItem] = useState(productdata);
+
+
+// using event to use Input filters
 
     const filterItem = (event) => {
-
-        console.log("dsadas")
             let item= event.target;
-        const updateditems = productdata.filter((cureElem) => {
+let  updateditems = productdata.filter((cureElem) => {
 
-
+// targeting attribute of input tag
             let itemName= cureElem[item.getAttribute("name")]
 
-            console.log("type  ", cureElem)
+            //  using if else to specified item is object then return its item value
             if(typeof(itemName)=="object"){
-                console.log("yrdd",(item.value))
                 return Object.values(itemName).includes(item.value) 
             }  
             return itemName == item.value;
 
 
         })
+
+        // setting setItem to updateditems   
 
 setItem(updateditems);
     }

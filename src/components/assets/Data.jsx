@@ -1,7 +1,30 @@
-import React from "react";
+import React , {useState} from "react";
 import { Row, Col, Container}  from "react-bootstrap";
 import './Data.css'
 import { NavLink } from "react-router-dom";
+// import Products from "./Shop Components/product_card";
+
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function Filter() {
   function priceChange(event){  
@@ -10,10 +33,39 @@ function Filter() {
   }
 
 
-    
 
 
 
+  // function Products() {
+  //   // using react states
+  //   const [items, setItem] = useState(productdata);
+  
+  
+  // // using event to use Input filters
+  
+  //   const filterItem = (event) => {
+  //           let item= event.target;
+  // let  updateditems = productdata.filter((cureElem) => {
+  
+  // // targeting attribute of input tag
+  //           let itemName= cureElem[item.getAttribute("name")]
+  
+  //           //  using if else to specified item is object then return its item value
+  //           if(typeof(itemName)=="object"){
+  //               return Object.values(itemName).includes(item.value) 
+  //           }  
+  //           return itemName == item.value;
+  
+  
+  //       })
+  
+  //       // setting setItem to updateditems   
+  
+  // setItem(updateditems);
+  //   }
+  // }
+  
+  
 
 
 
