@@ -1,15 +1,18 @@
 import React, { useState } from "react";
-import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import './Data.css'
 import { NavLink } from "react-router-dom";
 import productdata from "./Shop Components/shop-data/shopdata";
 import { Input } from "reactstrap";
+import {Animated} from "react-animated-css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 
 // ------------------Filter function starts from here----------------//
 
 function Filter() {
+
+// using event listener for changing price.
+
   function priceChange(event) {
     var value = event.target.value;
     document.querySelector("#price").innerHTML = value
@@ -61,6 +64,12 @@ function Filter() {
 
         <div className="filter">
 
+<Animated 
+            animationIn="fadeInDown"
+            animationOut="fadeOut"
+            animationInDuration={1000}
+            animationOutDuration={1000}
+            animationOutDelay={20000} >
           <div ><span>Select Make</span>
             <br />
             <br />
@@ -75,8 +84,8 @@ function Filter() {
 
             </Input>
           </div>
-
-          <div >
+          </Animated>
+          <div >  
 
 
             <span>Select Model</span>
@@ -104,7 +113,7 @@ function Filter() {
             <br />
             <br />
             <Input onChange={filterItem} name="mileage" id="mileage" type="select">
-              <option value="select">-Select-</option>
+              <option value="select">Select</option>
               <option value="10000">10000</option>
               <option value="120000">120000</option>
               <option value="12123">12123</option>
@@ -158,7 +167,7 @@ function Filter() {
           <NavLink exact activeClassName="active_class" id="link1" to="/Shop">
 
 
-            <button className="filterbtn" onChange={filterItem}>Filter</button>
+            <button className="filterbtn nimate__animated animate__rubberBand" onChange={filterItem}>Filter</button>
           </NavLink>
 
 
@@ -169,7 +178,7 @@ function Filter() {
 
       </div>
 
-{/* 
+
       {
 
         items.map((elems) => {
@@ -181,7 +190,7 @@ function Filter() {
 
           return (
 
-            <div>
+            <div className="d-flex justify-around">
               <div className="col-12 col-md-12 col-lg-4 img-div ">
 
                 <img src={pic} alt={imgalt} className="img-fluid" />
@@ -245,7 +254,7 @@ function Filter() {
 
 
 
-      } */}
+      }
 
 
 
