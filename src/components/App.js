@@ -16,7 +16,6 @@ import Home from './assets/Home';
 import About from './assets/About';
 import Menu from './Nav';
 import Shop from './assets/Shop';
-import Mission from './assets/Blog';
 import Terms from './assets/Subpages/Terms and conditions/Terms';
 import Sellvehicle from './assets/Subpages/Sellvehicle';
 import Blog from './assets/Blog';

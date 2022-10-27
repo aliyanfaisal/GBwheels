@@ -54,9 +54,7 @@ setItem(updateditems);
 
 
                         <div id="shopfilters">
-                            <div  >
-                     
-
+                            <div>
                                 <span>Select Mileage</span>
                                 <br />
                                 <br />
@@ -202,6 +200,7 @@ setItem(updateditems);
                                             <div className="row  item-inside">
                                                 <div className="col-12 col-md-12 col-lg-4 img-div ">
 
+
                                                     <img src={pic} alt={imgalt} className="img-fluid" />
 
                                                 </div>
@@ -214,7 +213,8 @@ setItem(updateditems);
 
                                                 <div className="col-12 col-md-12 col-lg-8">
 
-                                                    <h2>{car}</h2>
+                 
+                                                    <h2> <span>{id}</span>{car}</h2>
 
                                                     <div className="main-title pt-4 pb-3">
 <span>Specs</span>

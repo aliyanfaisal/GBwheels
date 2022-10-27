@@ -2,6 +2,9 @@ import React from "react";
 import './footer.css'
 import { SocialIcon } from "react-social-icons";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAppleWhole} from "@fortawesome/free-solid-svg-icons";
+import { faMobileAndroid } from "@fortawesome/free-solid-svg-icons";
 const Footer = () => {
 
     return (
@@ -31,6 +34,21 @@ const Footer = () => {
                     <li><a href="http://stackoverflow.com">Old-folk</a> </li>
                     <li> <a href="http://ijlalansari.great-site.net/">Northern-Hope</a> </li>
 <br />
+
+<div>
+
+<h4>Download our App</h4>
+               
+                        <hr/>
+               <div id="Applinks">
+                        
+                        <FontAwesomeIcon icon={faAppleWhole} />
+                        
+                        <FontAwesomeIcon icon={faMobileAndroid}/>
+
+                        </div>
+
+</div>
 
 
      

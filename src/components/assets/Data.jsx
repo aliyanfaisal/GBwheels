@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import './Data.css'
 import { NavLink } from "react-router-dom";
-import productdata from "./Shop Components/shop-data/shopdata";
 import { Input } from "reactstrap";
-import {Animated} from "react-animated-css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 
 // ------------------Filter function starts from here----------------//
 
@@ -15,45 +11,40 @@ function Filter() {
 
   function priceChange(event) {
     var value = event.target.value;
-    document.querySelector("#price").innerHTML = value
+    document.getElementById("price").innerHTML = value
   }
 
 
 
 
 
-  //   // using react states
-  const [items, setItem] = useState(productdata);
+  // //   // using react states
+  // const [items, setItem] = useState(productdata);
 
 
-  // // using event to use Input filters
+  //  // using event to use Input filters
 
-  const filterItem = (event) => {
-    let item = event.target;
-    let updateditems = productdata.filter((cureElem) => {
+  // const filterItem = (event) => {
+  //   let item = event.target;
+  //   let updateditems = productdata.filter((cureElem) => {
 
-      // targeting attribute of input tag
-      let itemName = cureElem[item.getAttribute("name")]
+  //     // targeting attribute of input tag
+  //     let itemName = cureElem[item.getAttribute("name")]
 
-      //  using if else to specified item is object then return its item value
-      if (typeof (itemName) == "object") {
-        return Object.values(itemName).includes(item.value)
-      }
-      return itemName == item.value;
+  //     //  using if else to specified item is object then return its item value
+  //     if (typeof(itemName) == "object") {
+  //       return Object.values(itemName).includes(item.value)
 
-
-    })
-
-    // setting setItem to updateditems   
-
-    setItem(updateditems);
-  }
+ //     }
+  //     return itemName == item.value;
 
 
+  //   })
 
+  //   // setting setItem to updateditems   
 
-
-
+  //   setItem(updateditems);
+  // }
 
   return (
 
@@ -64,16 +55,10 @@ function Filter() {
 
         <div className="filter">
 
-<Animated 
-            animationIn="fadeInDown"
-            animationOut="fadeOut"
-            animationInDuration={1000}
-            animationOutDuration={1000}
-            animationOutDelay={20000} >
           <div ><span>Select Make</span>
             <br />
             <br />
-            <Input onChange={filterItem} name="Tesla" id="brand" type="select" required>
+            <Input  name="Tesla" id="brand" type="select" required>
               <option value="">-Select-</option>
 
 
@@ -84,14 +69,13 @@ function Filter() {
 
             </Input>
           </div>
-          </Animated>
           <div >  
 
 
             <span>Select Model</span>
             <br />
             <br />
-            <Input onChange={filterItem} name="model" id="model" type="select" required>
+            <Input  name="model" id="model" type="select" required>
               <option value="">-Select-</option>
 
               <option value="g3">g3</option>
@@ -112,8 +96,8 @@ function Filter() {
             <span>Select Mileage</span>
             <br />
             <br />
-            <Input onChange={filterItem} name="mileage" id="mileage" type="select">
-              <option value="select">Select</option>
+            <Input  name="mileage" id="mileage" type="select">
+              <option value="select">select</option>
               <option value="10000">10000</option>
               <option value="120000">120000</option>
               <option value="12123">12123</option>
@@ -132,8 +116,8 @@ function Filter() {
             <span>Select Maker</span>
             <br />
             <br />
-            <Input onChange={filterItem} name="maker" id="maker" type="select">
-              <option value="tesla">-Select-</option>
+            <Input name="maker" id="maker" type="select">
+              <option value="select">-Select-</option>
               <option value="pak-motors">pak-motors</option>
               <option value="establishment-venture">establishment-venture</option>
               <option value="yamaha">yamaha</option>
@@ -158,16 +142,14 @@ function Filter() {
 
 
           <span>Select Price: <span id="price"></span>  </span>
-          <br />
-          <br />
 
-          <input type="range" id="vol" name="vol" min="400000" max="900000" onChange={priceChange} />
+          <input type="range" id="price" name="price" min="400000" max="900000" onChange={priceChange} />
 
           <br />
           <NavLink exact activeClassName="active_class" id="link1" to="/Shop">
 
 
-            <button className="filterbtn nimate__animated animate__rubberBand" onChange={filterItem}>Filter</button>
+            <button className="filterbtn animate__animated animate__rubberBand">Filter</button>
           </NavLink>
 
 
@@ -179,82 +161,7 @@ function Filter() {
       </div>
 
 
-      {
-
-        items.map((elems) => {
-
-          // destruncturing data
-
-          const { id, price, car, category, maker, model, info, pic, imgalt, contact, color } = elems;
-
-
-          return (
-
-            <div className="d-flex justify-around">
-              <div className="col-12 col-md-12 col-lg-4 img-div ">
-
-                <img src={pic} alt={imgalt} className="img-fluid" />
-
-              </div>
-
-              <h2>{car}</h2>
-
-              <div className="main-title pt-4 pb-3">
-                <span>Specs</span>
-                <hr />
-                <ul><li>{model}</li>
-                  <li>{category}</li>
-                  <li>{maker}</li>
-                  <li>{color}</li></ul>
-                <p>{info}</p>
-              </div>
-
-              <div className="me">
-
-
-                <div className=" d-flex justify-content-around ">
-                  <span>price:{price}</span>
-
-
-
-                  <a href={"tel:" + contact} >
-                    <button className="btn btn-warning text-center" >
-
-
-
-                      <FontAwesomeIcon icon={faSquarePhone} />   contact-seller
-                    </button>
-
-                  </a>
-                </div>
-
-
-
-
-
-
-
-              </div>
-
-            </div>
-          )
-
-
-
-
-
-
-        })
-
-
-
-
-
-
-
-
-
-      }
+      
 
 
 
