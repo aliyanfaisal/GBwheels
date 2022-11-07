@@ -28,11 +28,10 @@
     "web-vitals": "^2.1.4",
     "webpack": "^4.28.3"
   },
-    "engines": {
-      "npm": "8.19.2",
-      "node": "18.12.0"
-    }
-,
+  "engines": {
+    "npm": "8.19.2",
+    "node": "18.12.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
