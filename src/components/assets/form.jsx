@@ -12,7 +12,7 @@ return (
 
 
 
-      <h1 className="hello">just a good thing</h1>
+      <h1 className="hello">just a saa sasgood thing</h1>
       {props.content}
 
   </div>
